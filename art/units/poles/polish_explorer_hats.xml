@@ -1,0 +1,4 @@
+<animfile>
+  <component>hat<logic type="Civ"><STARKPolish><assetreference type="GrannyModel"><file>units\revolution\jaeger\jaeger_hat</file></assetreference></STARKPolish></logic></component>
+  <anim>Idle<component>hat</component></anim>
+</animfile>

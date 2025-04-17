@@ -1,0 +1,564 @@
+<soundsetdefmods>
+  <soundset name="DanishSettlerMaleSelect" volume="0.8000" maxnum="5" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmSelect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerMale\danishsmselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerMale\danishsmselect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerMale\danishsmselect4.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerMale\danishsmselect5.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerMale\danishsmmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerMale\danishsmmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerMale\danishsmmove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmAttack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+   <soundset name="DanishSettlerMaleBuild" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+   <soundset name="DanishSettlerMaleFarm" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerMaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerMaleGatherFruit" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerMaleGatherMeat" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerMaleGatherWood" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerMale\danishsmGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishsfSelect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerFemale\danishsfselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerFemale\danishsfselect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerFemale\danishsfselect4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishsfmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerFemale\danishsfmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerFemale\danishsfmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\VillagerFemale\danishsfmove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishsfattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleBuild" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishSFBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+   <soundset name="DanishSettlerFemaleFarm" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishSFFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishSFGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleGatherFruit" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishSFGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleGatherMeat" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishSFGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishSettlerFemaleGatherWood" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\VillagerFemale\danishSFGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishExplorerSelect" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Explorer\danishexplorerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Explorer\danishexplorerselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Explorer\danishexplorerselect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishExplorerAcknowledge" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Explorer\danishexplorermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Explorer\danishexplorermove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Explorer\danishexplorermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+    <soundset name="DanishExplorerAttack" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Explorer\danishexplorerattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Explorer\danishexplorerattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Explorer\danishexplorerattck3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishExplorerClaim" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="Danish\Explorer\danishexplorerMerchant.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishExplorerDisabled" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="Danish\Explorer\danishexplorerDisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishExplorerRevived" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="Danish\Explorer\danishexplorerRevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishExplorerRansomed" volume="1.0000" maxnum="1" distance="1.0000">
+    <sound filename="Danish\Explorer\danishexplorerRansomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishMusketeerSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishmusketeerselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishmusketeerselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishmusketeerselect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="DanishMusketeerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishmusketeermove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishmusketeermove2.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\danishmusketeermove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishMusketeerAttack" volume="0.7500" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishmusketeerattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishmusketeerattack2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishmusketeerattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+    <soundset name="DanishHussarSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\DanishHussarSelect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\DanishHussarSelect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\DanishHussarSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishHussarAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishhussarmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishhussarmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishhussarmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishHussarAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishhussarattack1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Danish\Military\danishhussarattack2.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\danishhussarattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+    <soundset name="DanishPikemanSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishpikemanselect1.wav" volume="0.9000">
+    </sound>
+    <sound filename="Danish\Military\danishpikemanselect2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishPikemanAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishpikemanmove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\danishpikemanmove2.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishPikemanAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishpikemanattack1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishpikemanattack2.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="DanishFalconetSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishfalconetSelect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\danishfalconetSelect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishfalconetSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishFalconetAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishfalconetmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishfalconetmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishfalconetmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishFalconetAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishfalconetattack1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Danish\Military\danishfalconetattack2.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\danishfalconetattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+    <soundset name="DanishPriestSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\nobleSelect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\nobleSelect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\nobleSelect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\nobleSelect4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishPriestAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\noblemove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\noblemove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\noblemove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\noblemove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishDragoonSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishdragoonSelect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\danishdragoonSelect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishdragoonSelect3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishDragoonAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishdragoonmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishdragoonmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\danishdragoonmove3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishDragoonAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\danishdragoonattack1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Danish\Military\danishdragoonattack2.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\danishdragoonattack3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+    <soundset name="DanishMortarSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\civSelect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\civSelect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\civSelect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\civmove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishMortarAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\civmove1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\civmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\civmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\civmove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishMortarAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\civattack1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Danish\Military\civattack2.wav" volume="0.8500">
+    </sound>
+  </soundset>
+  <soundset name="DanishVikingSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\viking_soldier_select_1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\viking_soldier_select_2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\viking_soldier_select_3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishVikingAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\viking_soldier_move_1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\viking_soldier_move_2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\viking_soldier_move_3.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="DanishVikingAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Danish\Military\viking_soldier_attack_1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Danish\Military\viking_soldier_attack_2.wav" volume="0.8500">
+    </sound>
+    <sound filename="Danish\Military\viking_soldier_attack_3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Danish\Military\viking_soldier_attack_4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  
+
+
+
+
+
+
+
+
+
+   <soundset name="LithuaniansettlerMaleSelect" volume="1.0000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\Lithuaniansmselect1.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagermale\Lithuaniansmselect2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagermale\Lithuaniansmselect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagermale\Lithuaniansmselect4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuaniansettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\Lithuaniansmmove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Polish\villagermale\Lithuaniansmmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagermale\Lithuaniansmmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagermale\Lithuaniansmmove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuaniansettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\Lithuaniansmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerMaleBuild" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\LithuanianSMBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+   <soundset name="LithuanianSettlerMaleFarm" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\LithuanianSMFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerMaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\LithuanianSMGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerMaleGatherFruit" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\LithuanianSMGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerMaleGatherMeat" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\LithuanianSMGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerMaleGatherWood" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\LithuanianSMGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerFemaleSelect" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\Lithuaniansfselect1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Lithuaniansfselect2.wav" volume="0.8000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Lithuaniansfselect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Lithuaniansfselect4.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerFemaleAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\Lithuaniansfmove1.wav" volume="0.7500">
+    </sound>
+    <sound filename="Polish\villagerfemale\Lithuaniansfmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Lithuaniansfmove3.wav" volume="0.8500">
+    </sound>
+    <sound filename="Polish\villagerfemale\Lithuaniansfmove4.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="LithuaniansettlerFemaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\Lithuaniansfattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerFemaleBuild" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\LithuanianSFBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+   <soundset name="LithuanianSettlerFemaleFarm" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\LithuanianSFFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerFemaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\LithuanianSFGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerFemaleGatherFruit" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\LithuanianSFGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerFemaleGatherMeat" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\LithuanianSFGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="LithuanianSettlerFemaleGatherWood" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\LithuanianSFGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+ <soundset name="PolishsettlerMaleSelect" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\Polishsmselect1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Polish\villagermale\Polishsmselect2.wav" volume="0.7500">
+    </sound>
+    <sound filename="Polish\villagermale\Polishsmselect3.wav" volume="0.9000">
+    </sound>
+    <sound filename="Polish\villagermale\Polishsmselect4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishsettlerMaleAcknowledge" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\Polishsmmove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Polish\villagermale\Polishsmmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagermale\Polishsmmove3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagermale\Polishsmmove4.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishsettlerMaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\Polishsmattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerMaleBuild" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\PolishSMBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+   <soundset name="PolishSettlerMaleFarm" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\PolishSMFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerMaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\PolishSMGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerMaleGatherFruit" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\PolishSMGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerMaleGatherMeat" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\PolishSMGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerMaleGatherWood" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagermale\PolishSMGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerFemaleSelect" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\Polishsfselect1.wav" volume="0.8000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Polishsfselect2.wav" volume="0.8000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Polishsfselect3.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Polishsfselect4.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerFemaleAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\Polishsfmove1.wav" volume="0.7500">
+    </sound>
+    <sound filename="Polish\villagerfemale\Polishsfmove2.wav" volume="1.0000">
+    </sound>
+    <sound filename="Polish\villagerfemale\Polishsfmove3.wav" volume="0.8500">
+    </sound>
+    <sound filename="Polish\villagerfemale\Polishsfmove4.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="PolishsettlerFemaleAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\Polishsfattack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerFemaleBuild" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\PolishSFBuild.wav" volume="1.0000">
+    </sound>
+  </soundset>
+   <soundset name="PolishSettlerFemaleFarm" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\PolishSFFarm.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerFemaleGatherCoin" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\PolishSFGatherCoin.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerFemaleGatherFruit" volume="0.6500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\PolishSFGatherFruit.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerFemaleGatherMeat" volume="0.9500" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\PolishSFGatherMeat.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishSettlerFemaleGatherWood" volume="0.9000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\villagerfemale\PolishSFGatherWood.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishExplorerSelect" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\Explorer\Polishexplorerselect1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Polish\Explorer\Polishexplorerselect2.wav" volume="0.7500">
+    </sound>
+    <sound filename="Polish\Explorer\Polishexplorerselect3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+  <soundset name="PolishExplorerAcknowledge" volume="0.7000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\Explorer\Polishexplorermove1.wav" volume="0.8500">
+    </sound>
+    <sound filename="Polish\Explorer\Polishexplorermove2.wav" volume="0.9000">
+    </sound>
+    <sound filename="Polish\Explorer\Polishexplorermove3.wav" volume="0.9000">
+    </sound>
+  </soundset>
+    <soundset name="PolishExplorerAttack" volume="0.8000" maxnum="4" distance="1.0000">
+    <sound filename="Polish\Explorer\PolishexplorerAttack.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishExplorerClaim" volume="0.6500" maxnum="1" distance="1.0000">
+    <sound filename="Polish\Explorer\PolishexplorerClaim.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishExplorerDisabled" volume="0.6000" maxnum="1" distance="1.0000">
+    <sound filename="Polish\Explorer\PolishexplorerDisabled.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishExplorerRevived" volume="0.7000" maxnum="1" distance="1.0000">
+    <sound filename="Polish\Explorer\PolishexplorerRevived.wav" volume="1.0000">
+    </sound>
+  </soundset>
+  <soundset name="PolishExplorerRansomed" volume="0.8000" maxnum="1" distance="1.0000">
+    <sound filename="Polish\Explorer\PolishexplorerRansomed.wav" volume="1.0000">
+    </sound>
+  </soundset>
+</soundsetdefmods>

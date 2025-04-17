@@ -1,0 +1,26 @@
+<material>
+  <submaterial name="mata">
+    <materialdef name="default_doublesided_cutout">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="units\explorers\female\fraulein\textures\fraulein_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\explorers\female\fraulein\textures\fraulein_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\explorers\female\fraulein\textures\fraulein_mata_Masks">
+      </texture>
+      <texture name="Details" override="units\explorers\female\fraulein\textures\fraulein_mata_Details">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="units\villagers\ce_villager_female\textures\ce_villager_female_mata_BaseColor">
+      </texture>
+      <texture name="Normals" override="units\villagers\ce_villager_female\textures\ce_villager_female_mata_Normals">
+      </texture>
+      <texture name="Masks" override="units\villagers\ce_villager_female\textures\ce_villager_female_mata_masks">
+      </texture>
+      <texture name="Details" override="units\villagers\ce_villager_female\textures\ce_villager_female_mata_Details">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>

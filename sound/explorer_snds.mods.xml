@@ -1,0 +1,92 @@
+<protounitsounddef>
+  <protounit name="Explorer">
+    <soundtype name="Select">
+      <civlogic>
+        <choice name="LBDanish">
+          <soundset name="DanishExplorerSelect">
+          </soundset>
+        </choice>
+        <choice name="LBPolish">
+          <soundset name="RussianExplorerSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice name="LBDanish">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="DanishExplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="DanishExplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+        <choice name="LBPolish">
+          <targetlogic>
+            <choice name="default">
+              <soundset name="GermanExplorerAcknowledge">
+              </soundset>
+            </choice>
+            <choice name="enemy">
+              <soundset name="GermanExplorerAttack">
+              </soundset>
+            </choice>
+          </targetlogic>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Claim">
+      <civlogic>
+        <choice name="LBDanish">
+          <soundset name="DanishExplorerClaim">
+          </soundset>
+        </choice>
+        <choice name="LBPolish">
+          <soundset name="GermanExplorerClaim">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOut">
+      <civlogic>
+        <choice name="LBDanish">
+          <soundset name="DanishExplorerDisabled">
+          </soundset>
+        </choice>
+        <choice name="LBPolish">
+          <soundset name="GermanExplorerDisabled">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="KnockOutRevived">
+      <civlogic>
+        <choice name="LBDanish">
+          <soundset name="DanishExplorerRevived">
+          </soundset>
+        </choice>
+        <choice name="LBPolish">
+          <soundset name="GermanExplorerRevived">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Ransomed">
+      <civlogic>
+        <choice name="LBDanish">
+          <soundset name="DanishExplorerRansomed">
+          </soundset>
+        </choice>
+        <choice name="LBPolish">
+          <soundset name="GermanExplorerRansomed">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+  </protounit>
+</protounitsounddef>

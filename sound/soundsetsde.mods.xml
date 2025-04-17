@@ -1,0 +1,26 @@
+<soundsetdefdemods>
+    <soundset name="IndonesiaMilitarySelect" volume="1.0000" maxnum="4" distance="1.0000">
+        <sound filename="Revolution\Malay_Soldier_Select_1.wav" volume="1.0000">
+        </sound>
+        <sound filename="Revolution\Malay_Soldier_Select_2.wav" volume="1.0000">
+        </sound>
+        <sound filename="Revolution\Malay_Soldier_Select_3.wav" volume="1.0000">
+        </sound>
+      </soundset>
+      <soundset name="IndonesiaMilitaryAcknowledge" volume="1.0000" maxnum="4" distance="1.0000">
+        <sound filename="Revolution\Malay_Soldier_Move_1.wav" volume="1.0000">
+        </sound>
+        <sound filename="Revolution\Malay_Soldier_Move_2.wav" volume="1.0000">
+        </sound>
+        <sound filename="Revolution\Malay_Soldier_Move_3.wav" volume="1.0000">
+        </sound>
+      </soundset>
+      <soundset name="IndonesiaMilitaryAttack" volume="1.00000" maxnum="4" distance="1.0000">
+        <sound filename="Revolution\Malay_Soldier_Attack_1.wav" volume="1.0000">
+        </sound>
+        <sound filename="Revolution\Malay_Soldier_Attack_2.wav" volume="1.0000">
+        </sound>
+        <sound filename="Revolution\Malay_Soldier_Attack_3.wav" volume="1.0000">
+        </sound>
+      </soundset>
+</soundsetdefdemods>

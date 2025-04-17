@@ -1,0 +1,13 @@
+﻿<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>500010</nameID>
+   <tooltipID>500011</tooltipID>
+   <forcedciv>lbpolish</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>resources/images/icons/singleplayer/cpai_avatar_polish.png</icon>
+   <chatset>gustav</chatset>
+   <playerNames>
+      <nameID>500010<civ>lbpolish</civ></nameID> 
+	</playerNames>
+</AI>
