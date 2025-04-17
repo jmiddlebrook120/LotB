@@ -7,6 +7,8 @@
       <prereqtech>-1</prereqtech>
       <age>0</age>
       <displayunitcount>1</displayunitcount>
+      <revoltcard>
+      </revoltcard>
     </card>
     <card mergeMode='add'>
       <name>HCNorthernWhaling</name>
@@ -15,16 +17,20 @@
       <age>1</age>
       <displayunitcount>2</displayunitcount>
       <bindtotech>HCNorthernWhaling</bindtotech>
+      <revoltcard>
+      </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'>
       <name>HCScandinavianForests</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
       <bindtotech>HCScandinavianForests</bindtotech>
+      <revoltcard>
+      </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'>
       <name>HCREVSilvermining</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -33,7 +39,7 @@
       <revoltcard>
       </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'>
       <name>DEHCREVNorwayLogging</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -42,7 +48,7 @@
       <revoltcard>
       </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'> 
       <name>DEHCREVShipOutposts</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -52,7 +58,7 @@
       <revoltcard>
       </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'>
       <name>DEHCREVCapitolNorway</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -61,7 +67,7 @@
       <revoltcard>
       </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'>
       <name>DEHCREVBirkebeiner</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -70,7 +76,7 @@
       <revoltcard>
       </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'>
       <name>DEHCREVShipCaribou</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -80,7 +86,7 @@
       <revoltcard>
       </revoltcard>
     </card>
-    <card>
+    <card mergeMode='add'>
       <name>DEHCREVShipSilverMines</name>
       <maxcount>-1</maxcount>
       <level>0</level>
