@@ -194,7 +194,10 @@
     <string _locid="500174">Sandsvær Silver Mines</string>
     <string _locid="500175">Villagers gather Coin from Mines faster. Torps gather coin +100% more quickly from mines. Mines last longer.</string>
     <string _locid="500176">Eidsvoll Constitution</string>
-
+    <string _locid="500177">Ships 2 Crates of Julesild, which provide more Food over time. You can have up to 10 Crates of Julesild in play at any time.</string>
+    <string _locid="500178">Sjømenn</string>
+    <string _locid="500179">Grants 8 Ski Infantry. Your Settlers become Sjømenn, and can be called from docks and garrisoned into warships to improve attack.</string>
+	
 </Language>
 </StringTable>
 </stringmods>
