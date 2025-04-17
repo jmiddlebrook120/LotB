@@ -1,0 +1,36 @@
+<randomnamemods>
+	<protounit>Caravel
+		<civ>LBPolish<title>500048</title><title>500049</title><title>500050</title><title>500051</title><title>500052</title><title>500053</title><title>500054</title><title>500055</title><title>500056</title><title>500057</title><title>500058</title><title>500059</title><title>500060</title><title>500061</title><title>500062</title><title>500063</title></civ>
+	</protounit>
+	<protounit>LBGunBoat
+		<civ>LBDanish<title>500072</title><title>500073</title><title>500074</title><title>500075</title><title>500076</title><title>500077</title><title>500078</title><title>500079</title><title>500080</title><title>500081</title><title>500082</title><title>500083</title><title>500084</title><title>500085</title><title>500086</title><title>500087</title></civ>
+	</protounit>
+	<protounit>Galleon
+		<civ>LBPolish<title>500051</title><title>500056</title><title>500060</title></civ>
+		<civ>LBDanish<title>500074</title><title>500075</title><title>500073</title></civ>
+	</protounit>		
+	<protounit>Frigate
+		<civ>LBPolish<title>500061</title><title>500062</title><title>500063</title></civ>
+		<civ>LBDanish<title>500076</title><title>500077</title><title>500078</title></civ>
+	</protounit>		
+	<protounit>Monitor
+		<civ>LBPolish<title>500055</title><title>500057</title></civ>
+		<civ>LBDanish<title>500083</title><title>500084</title></civ>
+	</protounit>	
+	<protounit>deMercBattleship
+		<civ>LBPolish<title>500050</title><title>500052</title></civ>
+		<civ>LBDanish<title>500086</title><title>500085</title></civ>
+	</protounit>
+	<protounit>Explorer
+		<civ>LBPolish<firstname>500012</firstname><firstname>500013</firstname><firstname>500014</firstname><firstname>500015</firstname><firstname>500016</firstname><firstname>500017</firstname><lastname>500018</lastname><lastname>500019</lastname><lastname>500020</lastname><lastname>500021</lastname><lastname>500022</lastname><lastname>500023</lastname></civ>
+		<civ>LBDanish<firstname>500024</firstname><firstname>500025</firstname><firstname>500026</firstname><firstname>500027</firstname><firstname>500028</firstname><firstname>500029</firstname><lastname>500030</lastname><lastname>500031</lastname><lastname>500032</lastname><lastname>500033</lastname><lastname>500034</lastname><lastname>500035</lastname></civ>
+	</protounit>
+	<protounit>FortFrontier
+		<civ>LBPolish<title>500064</title><title>500065</title><title>500066</title><title>500067</title></civ>
+		<civ>LBDanish<title>500068</title><title>500069</title><title>500070</title><title>500071</title></civ>
+	</protounit>
+	<protounit>deTavern
+		<civ>LBPolish<title>500036</title><title>500037</title><title>500038</title><title>500039</title><title>500040</title><title>500041</title></civ>
+		<civ>LBDanish<title>500042</title><title>500043</title><title>500044</title><title>500045</title><title>500046</title><title>500047</title></civ>
+	</protounit>
+</randomnamemods>

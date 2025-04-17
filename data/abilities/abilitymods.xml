@@ -1,0 +1,5 @@
+<abilitymods>
+  <SkiInfantry>
+    <ability>dePromotionRangeSPD<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </SkiInfantry>
+</abilitymods>

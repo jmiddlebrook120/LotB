@@ -1,0 +1,200 @@
+<stringmods>
+<StringTable>
+<Language name="english">
+
+	<string _locid="500000" symbol="cStringCivNameDanish">Danes</string>
+    <string _locid="500001" symbol="cStringCivRolloverDanish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather nearby resources. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;\nPikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+    <string _locid="500002">Copenhagen</string>
+    <string _locid="500003" symbol="cStringCivNamePolish">The Commonwealth</string>
+    <string _locid="500004" symbol="cStringCivRolloverPolish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather nearby resources. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;\nPikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+	<string _locid="500005">Warsaw</string>
+    <string _locid="500006">Norway</string>
+    <string _locid="500007">Christiania</string>
+	<string _locid="500008">Christian IV</string>
+    <string _locid="500009">Christian IV</string>
+    <string _locid="500010">Jan III Sobieski</string>
+    <string _locid="500011">Jan III Sobieski</string>
+    <!-- PFirst -->
+    <string _locid="500012">Bolesław </string>
+    <string _locid="500013">Jerzy </string>
+    <string _locid="500014">Władysław </string>
+    <string _locid="500015">Mikołaj </string>
+    <string _locid="500016">Aleksy </string>
+    <string _locid="500017">Jerzy </string>
+    <!-- PLast -->
+    <string _locid="500018">Zawisza</string>
+    <string _locid="500019">Radziwiłł</string>
+    <string _locid="500020">Kościuszko</string>
+    <string _locid="500021">Poniatowski</string>
+    <string _locid="500022">Sienkiewicz</string>
+    <string _locid="500023">Zawisza</string>
+<!-- DFirst -->
+    <string _locid="500024">Lars </string>
+    <string _locid="500025">Erik </string>
+    <string _locid="500026">Svend </string>
+    <string _locid="500027">Niels </string>
+    <string _locid="500028">Anders </string>
+    <string _locid="500029">Lars </string>
+<!-- Dlast -->
+    <string _locid="500030">Falkenberg</string>
+    <string _locid="500031">Gundersen</string>
+    <string _locid="500032">Eriksen</string>
+    <string _locid="500033">Mikkelsen</string>
+    <string _locid="500034">Vinter</string>
+    <string _locid="500035">Falkenberg</string>
+<!-- PTavern -->
+    <string _locid="500036">The Old Oak Tavern</string>
+    <string _locid="500037">The Drunken Hussar Tavern</string>
+    <string _locid="500038">The Foggy Tankard</string>
+    <string _locid="500039">The Dragon’s Claw Inn</string>
+    <string _locid="500040">The Nobleman’s Tavern</string>
+    <string _locid="500041">The Old Oak Tavern</string>
+<!-- Dtavern -->
+    <string _locid="500042">The Blue Dragon Inn</string>
+    <string _locid="500043">The Red Rooster Tavern</string>
+    <string _locid="500044">The Mead Hall</string>
+    <string _locid="500045">The Mermaid’s Rest</string>
+    <string _locid="500046">The Golden Axe</string>
+    <string _locid="500047">The Blue Dragon Inn</string>
+<!-- PShip -->
+    <string _locid="500048">The Winged Lancer</string>
+    <string _locid="500049">White Eagle</string>
+    <string _locid="500050">Baltic Dragon</string>
+    <string _locid="500051">Hussar’s Glory</string>
+    <string _locid="500052">Neptune’s Revenge</string>
+    <string _locid="500053">Sea Lion</string>
+    <string _locid="500054">Lightning</string>
+    <string _locid="500055">Thunder</string>
+    <string _locid="500056">Black Sabre</string>
+    <string _locid="500057">Queen of the Baltic</string>
+    <string _locid="500058">Sea Wolf</string>
+    <string _locid="500059">Vistula Fury</string>
+    <string _locid="500060">Eagle’s Talon</string>
+    <string _locid="500061">Warsaw’s Wrath</string>
+    <string _locid="500062">Crimson Tide</string>
+    <string _locid="500063">The Winged Lancer</string>
+    <!-- PFort -->
+    <string _locid="500064">Fort Sobieski</string>
+    <string _locid="500065">Wawel Stronghold</string>
+    <string _locid="500066">Jagellonian Bastion</string>
+    <string _locid="500067">Eagle"s Watch</string>
+    <!-- DFort -->
+    <string _locid="500068">Valdemar"s Bastion</string>
+    <string _locid="500069">Fort Dannebrog</string>
+    <string _locid="500070">Vikinghold</string>
+    <string _locid="500071">Kronborg Keep</string>
+<!-- Dship -->
+    <string _locid="500072">Blood Eagle</string>
+    <string _locid="500073">Hammer of the Sea</string>
+    <string _locid="500074">The Iron Wolf</string>
+    <string _locid="500075">Storm Rider</string>
+    <string _locid="500076">Sail of Death</string>
+    <string _locid="500077">The Black Dragon</string>
+    <string _locid="500078">Northern Lights</string>
+    <string _locid="500079">King of the Sea</string>
+    <string _locid="500080">Valhalla’s Revenge</string>
+    <string _locid="500081">The Wolf of Skagerrak</string>
+    <string _locid="500082">Raven of the North</string>
+    <string _locid="500083">Mjolnir’s Wrath</string>
+    <string _locid="500084">Odin’s Howl</string>
+    <string _locid="500085">Frozen Tempest</string>
+    <string _locid="500086">The Kraken’s Grasp</string>
+    <string _locid="500087">Fenrir’s Bite</string>
+
+    <string _locid="500088">Landsoldater</string>
+    <string _locid="500089">Landsoldat</string>    
+    <string _locid="500090">Imperial Landsoldater</string>
+    <string _locid="500091">Imperial Landsoldat</string>
+    <string _locid="500092">Danish Musketeer attack and hitpoints greatly increased.</string>
+    <string _locid="500093">Zealand Life Hussars</string>
+    <string _locid="500094">Zealand Life Hussar</string>    
+    <string _locid="500095">Danish Hussar attack and hitpoints greatly increased.</string>
+    <string _locid="500096">Battlefield Engineering</string>
+    <string _locid="500097">Your Ox Carts can now build military buildings as well.</string>   
+    <string _locid="500098">Øresund Tolls</string>
+    <string _locid="500099">Control over the Øresund strait allows you enforce this tax. Your Docks now trickle Coin and even more if you have researched Öresund Customs, but now have a build limit.</string>   
+    <string _locid="500100">Oldenburg</string>
+    <string _locid="500101">Grants a Royal Grenadier with all future shipments and allies you with the House of Oldenburg.</string>  
+     <!--    <string _locid="126970">Delivers some Royal Grenadiers and allies you to the House of Oldenburg, allowing you to train Royal Grenadiers and other Oldenburg infantry from Barracks.</string>  -->
+    <string _locid="500102">1 Ox Cart</string>
+    <string _locid="500103">Ships 1 Ox Cart.</string>  
+    <string _locid="500104">Ox Cart</string>
+    <string _locid="500105">Transforms into a Mill, Estate or Livestock Pen. Can garrison into buildings for protection. Boosts Settler production.</string>
+    <string _locid="500106">Kanonjolle</string>
+    <string _locid="500107">Good at exploring, fishing or transport.</string>
+    <string _locid="500108">Imperial Zealand Hussars</string>
+    <string _locid="500109">Imperial Zealand Hussar</string>    
+    <string _locid="500110">Espingol</string>
+    <string _locid="500111">Heavy Espingols</string>  
+    <string _locid="500112">Heavy Espingol</string>  
+    <string _locid="500113">Imperial Espingols</string>  
+    <string _locid="500114">Imperial Espingol</string>  
+    <string _locid="500115">GunBoat</string>
+    <string _locid="500116">3 Espingols</string>  
+    <string _locid="500117">5 Espingols</string>  
+    <string _locid="500118">4 Espingols</string>
+    <string _locid="500119">Friskytte</string>
+    <string _locid="500120">Veteran Friskytter</string>  
+    <string _locid="500121">Veteran Friskytte</string>  
+    <string _locid="500122">Guard Friskytter</string>  
+    <string _locid="500123">Guard Friskytte</string>  
+    <string _locid="500124">Imperial Friskytter</string>  
+    <string _locid="500125">Imperial Friskytte</string>  
+    <string _locid="500126">Ski Infantry</string>
+    <string _locid="500127">Veteran Ski Infantry</string>  
+    <string _locid="500128">Guard Ski Infantry</string>   
+    <string _locid="500129">Imperial Ski Infantry</string>
+    <string _locid="500130">Rytter</string>
+    <string _locid="500131">Guard Rytterne</string>  
+    <string _locid="500132">Guard Rytter</string>  
+    <string _locid="500133">Imperial Rytterne</string>
+    <string _locid="500134">Imperial Rytter</string> 
+    <string _locid="500135">Contract Bosniak</string>
+    <string _locid="500136">Delivers 6 Bosniaks. Enables Bosniak hiring at the Tavern.</string>
+    <string _locid="500137">15 Caribou</string>
+    <string _locid="500138">Julesild</string>
+    <string _locid="500139">4 Rytterne</string>  
+    <string _locid="500140">5 Rytterne</string>  
+    <string _locid="500141">8 Rytterne</string>
+    <string _locid="500142">2 Kanonjoller</string>  
+    <string _locid="500143">3 Kanonjoller</string>  
+    <string _locid="500144">Norway</string>
+    <string _locid="500145" symbol="cStringCultureCEurope">Central Europe</string>
+    <string _locid="500146">Folwark</string>
+	<string _locid="500147">Economic building that combines Mill and Livestock Pen, as well as supports some population.</string>
+    <string _locid="500148">Northern Whaling Grounds</string>
+    <string _locid="500149">Sends two Minke Whales. Fishing Boats gather from Whales faster.</string>
+    <string _locid="500150">Royal Grenadier</string>
+    <string _locid="500151">Royal Life Guard</string>
+    <string _locid="500152">Grants a Royal Grenadier with all future shipments and enables them to be recruited at Oldenburg Trading Posts.</string>
+    <string _locid="500153">Opportunist</string>
+    <!-- <string _locid="500154">Improves your Swedish Explorer in combat and gives him a canine companion. Trade Routes yield more resources.</string> -->
+    <string _locid="500154">Improves your Danish Explorer in combat, increases his line of sight and gives him a canine companion.</string>
+    <string _locid="500155">Knogsberg Mines</string>
+    <string _locid="500156">Grants two Silver Prospector Wagons.</string>
+    <string _locid="91774">Scandinavian Forests</string>
+    <string _locid="91775">Scandinavian Forests shipment has arrived.</string>
+    <string _locid="500157">Great Northern Forests</string>
+    <string _locid="500158">Trees last significantly longer and Settlers gather wood from trees quicker.</string>
+    <string _locid="500159">Gunboat War</string>
+    <string _locid="500160">Your gunboats are cheaper and more can be built.</string>
+    <string _locid="500161">Copenhagen</string>
+    <string _locid="500162">Sends two Ox Carts. Ox Carts can now build Outposts and the build limit for Outposts have increased.</string>
+    <string _locid="500163">4 Kanonjoller</string>  
+    <string _locid="500164">4 Silver Prospector Wagons</string>
+    <string _locid="500165">6 Ski Infantry</string>
+    <string _locid="500166">TEAM Skirmisher Hitpoints</string>
+    <string _locid="500167">TEAM All Skirmisher hitpoints increased.</string>
+    <string _locid="500168">Akershus Fortress</string>
+    <string _locid="500169">Norwegian Logging</string>
+    <string _locid="500170">Settlers now gather Coin from Trees.</string>
+    <string _locid="500171">Norwegian Spruce</string>
+    <string _locid="500172">Birkebeiners</string>
+    <string _locid="500173">Ships 6 Ski Infantry and enables them and their imperial upgrades in the barracks.</string>
+    <string _locid="500174">Sandsvær Silver Mines</string>
+    <string _locid="500175">Villagers gather Coin from Mines faster. Torps gather coin +100% more quickly from mines. Mines last longer.</string>
+    <string _locid="500176">Eidsvoll Constitution</string>
+
+</Language>
+</StringTable>
+</stringmods>

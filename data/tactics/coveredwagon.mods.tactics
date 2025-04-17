@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tacticsmods>
+	<action mergeMode="add">
+		<name stringid="68961">EconomicAuraOxCart</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<modifyabstracttype>AbstractVillager</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>GatherRate</modifytype>
+		<modifymultiplier>1.1</modifymultiplier>
+		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic mergeMode="replace">
+		Normal
+		<speedmodifier>1.0</speedmodifier>
+		<action>Build</action>
+		<action>EconomicAuraOxCart</action>
+	</tactic>
+</tacticsmods>

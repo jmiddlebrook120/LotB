@@ -1,0 +1,9 @@
+<tacticsmods>
+  <action mergeMode="add">
+    <name stringid="43294">AutoGatherCoin</name>
+    <type>AutoGather</type>
+    <active>0</active>
+    <persistent>1</persistent>
+  </action>
+  <tactic mergeMode="replace">Normal<action>AutoGatherCoin</action><action>Heal</action><action>SpawnBoat</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><action priority="100">AntiShipAttack</action></tactic>
+</tacticsmods>

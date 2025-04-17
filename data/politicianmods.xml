@@ -1,0 +1,8 @@
+<politicianmods>
+  <DERevolutionNorway portraitfilename="ui\ingame\politicians\revolution_norway" portraitfilenamewpf="resources/images/icons/politicians/revolution_norway.png">
+  </DERevolutionNorway>
+  <politicianmarksmanDanish portraitfilename="ui\ingame\politicians\politician_marksman" portraitfilenamewpf="resources/images/icons/politicians/politician_marksman.png">
+  </politicianmarksmanDanish>
+  <depoliticiancavalierDanish portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
+  </depoliticiancavalierDanish>
+</politicianmods>  
