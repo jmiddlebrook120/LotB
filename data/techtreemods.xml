@@ -1,0 +1,2352 @@
+<techtreemods>
+  <tech name="RevDeforestation" type="Normal">
+    <prereqs>
+      <techstatus mergeMode="add" status="Active">DEHCREVCapitolNorway</techstatus>
+    </prereqs>
+  </tech>
+  <tech name="RevExcessiveTaxation" type="Normal">
+    <prereqs>
+      <techstatus mergeMode="add" status="Active">DEHCREVCapitolNorway</techstatus>
+    </prereqs>
+  </tech>
+  <tech name="RevKnighthood" type="Normal">
+    <prereqs>
+      <techstatus mergeMode="add" status="Active">DEHCREVCapitolNorway</techstatus>
+    </prereqs>
+  </tech>
+  <tech name="RevLargeScaleAgriculture" type="Normal">
+    <prereqs>
+      <techstatus mergeMode="add" status="Active">DEHCREVCapitolNorway</techstatus>
+    </prereqs>
+  </tech>
+  <tech name="RevPeerage" type="Normal">
+    <prereqs>
+      <techstatus mergeMode="add" status="Active">DEHCREVCapitolNorway</techstatus>
+    </prereqs>
+  </tech>
+  <tech name="RevLegendaryNatives" type="Normal">
+    <prereqs>
+      <techstatus mergeMode="add" status="Active">DEHCREVCapitolNorway</techstatus>
+    </prereqs>
+  </tech>
+  <tech name="DEHCREVGunboats" type="Normal">
+    <effects>
+      <effect mergeMode="add" type="Data" action="LongRangeAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">LBGunboat</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEAge0Swedish" type="Normal">
+    <effect mergeMode="add" type="TechStatus" status="obtainable">DERevolutionNorway</effect>
+    <effect mergeMode="add" type="TechStatus" status="active">DECivCentralSettler</effect>
+  </tech>
+  <tech name="Age0German" type="Normal">
+    <effect mergeMode="add" type="TechStatus" status="obtainable">DERevolutionNorway</effect>
+    <effect mergeMode="add" type="TechStatus" status="active">DECivCentralSettler</effect>
+  </tech>
+  <tech name="DENativeOldenburg" type="Normal">
+    <effect mergeMode="add" type="TechStatus" status="obtainable">NatOldenburgRoyalLifeGuard</effect>
+  </tech>
+  <tech name="DEUnknownAllianceOldenburg" type="Normal">
+    <effect mergeMode="add" type="TechStatus" status="obtainable">NatOldenburgRoyalLifeGuard</effect>
+  </tech>
+   <tech name="SelectiveBreeding">
+    <effects>
+	  <effect mergeMode="add" type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="AbstractLivestockBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+	  <effect mergeMode="add" type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCStockyards">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="AbstractLivestockBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+	  <effect mergeMode="add" type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCFatterSheepTeam">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="AbstractLivestockBuilding" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+	  <effect mergeMode="add" type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">Herdable</target>
+      </effect>
+    </effects>
+  </tech>
+   <tech name="SeedDrill">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVJaegerCombat">
+    <effects>
+      <effect mergeMode="add" type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+      <effect mergeMode="add" type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ArtificialFertilizer">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImpLargeScaleAgriculture">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DENatJagiellonFolwarks">
+    <effects>
+	  <effect mergeMode="add" type="Data2" amount="100.00" subtype="ResourceByKBQuery" resource="Food" queryunittype="STARKFolwark" querystate="Alive" resourcecap="3000.00" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect mergeMode="add" type="Data" amount="100.00" subtype="BuildBountySpecific" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">STARKFolwark</target>
+      </effect>
+    </effects>
+  </tech> 
+  <tech name="HCXPLandGrab">
+    <effects>
+      <effect mergeMode="add" type="Data" amount="0.60" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">STARKFolwark</target>
+      </effect>
+      <effect mergeMode="add" type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
+        <target type="ProtoUnit">STARKFolwark</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCFoodSilosTeam">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCSustainableAgriculture">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>  
+  <tech name="HCRefrigeration">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPEconomicTheory">
+    <effects>
+      <effect mergeMode="add" type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCXPRanching">
+    <effects>
+      <effect  mergeMode="add" type="Data" amount="1.00" subtype="AddTrain" unittype="Cow" relativity="Absolute">
+        <target type="ProtoUnit">STARKFolwark</target>
+      </effect>
+    </effects>
+  </tech>
+
+  <tech name="STARKPolishGreatHarvest" type="Normal">
+    <dbid>77093060</dbid>
+    <displaynameid>77092145</displaynameid>
+    <cost resourcetype="Wood">800.0000</cost>
+    <cost resourcetype="Gold">800.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\iowa_farmlands.png</icon>
+    <rollovertextid>31529</rollovertextid>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>DEFarmingTechnology</flag>
+    <prereqs>	
+	  <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">ArtificialFertilizer</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Mill" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Farm" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.30" subtype="WorkRateSpecific" resource="Food" unittype="ypRicePaddy" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.30" subtype="WorkRateSpecific" resource="Food" unittype="deField" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data2" action="Gather" amount="1.30" subtype="WorkRateSpecific" resource="Food" unittype="deHacienda" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="AutoGatherFood" amount="1.30" subtype="WorkRate" unittype="Food" relativity="BasePercent">
+        <target type="ProtoUnit">deHacienda</target>
+      </effect>
+	  <effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="STARKHCEuropeGranary" type="Normal">
+    <dbid>77093061</dbid>
+    <displaynameid>77092230</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\americans\minneapolis_mills.png</icon>
+    <rollovertextid>77092231</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.25" subtype="ResourceTrickleRate" resource="Food" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="STARKFolwark" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+	  <effect type="Data" action="Gather" amount="2.00" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+	  <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <!-- <tech name="STARKHCTitheBarns" type="Normal">
+    <dbid>77093063</dbid>
+    <displaynameid>77092234</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\poles\tithe_barns.png</icon>
+    <rollovertextid>77092235</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+	  <effect type="Data" action="AutoGatherCoin" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" action="AutoGatherCoin" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+	  <effect type="Data" action="AutoGatherCoin" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">STARKFolwark</target>
+      </effect>
+	  
+	  <effect type="Data" action="AutoGatherCoin" amount="0.10" subtype="WorkRate" unittype="Gold" relativity="Assign">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+	  <effect type="Data" action="AutoGatherCoin" amount="0.10" subtype="WorkRate" unittype="Gold" relativity="Assign">
+        <target type="ProtoUnit">Cow</target>
+      </effect>
+	  <effect type="Data" action="AutoGatherCoin" amount="0.30" subtype="WorkRate" unittype="Gold" relativity="Assign">
+        <target type="ProtoUnit">STARKFolwark</target>
+      </effect>
+	  <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech> -->
+
+ <tech name="DEAge0danish" type="Normal">
+    <dbid>12000</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="SetName" proto="deCrateofFish" culture="none" newname="500138">
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">OxCart</target>
+      </effect>
+      <effect type="Data" action="EconomicAuraOxCart" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">OxCart</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HouseEast</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="TechStatus" status="active">DECivCentralSettler</effect>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
+      <effect type="TechStatus" status="active">DEGrenadierEnable</effect>
+      <effect type="SetName" tech="DEHCHandMortar" newname="91787" newrollover="91786">
+      </effect>
+      <effect type="TechStatus" status="obtainable">RGZealandLifeHussars</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchPikePush</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchSavolaxJaegers</effect>
+      <effect type="TechStatus" status="obtainable">DEChurchGustavianGuards</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Priest</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mill</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">VeteranPikemen</effect>
+      <effect type="TechStatus" status="obtainable">VeteranFriskytter</effect>
+      <effect type="TechStatus" status="obtainable">GuardFriskytter</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFriskytter</effect>
+      <effect type="TechStatus" status="obtainable">ImperialZealandLife</effect>
+      <effect type="TechStatus" status="obtainable">ImperialLandsoldat</effect>
+      <effect type="TechStatus" status="obtainable">RGLandsoldat</effect>
+      <effect type="TechStatus" status="obtainable">ImperialSkiInfantry</effect>
+      <effect type="TechStatus" status="obtainable">ImperialRytter</effect>
+      <effect type="TechStatus" status="obtainable">GuardSkiInfantry</effect>
+      <effect type="TechStatus" status="obtainable">VeteranMusketeers</effect>
+      <effect type="TechStatus" status="obtainable">GuardRytter</effect>
+      <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
+      <effect type="TechStatus" status="obtainable">HeavyEspingols</effect>
+      <effect type="TechStatus" status="obtainable">ImperialEspingols</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ShipHowitzers</effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">LivestockPen</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Friskytte</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Rytter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">LBGunBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Monitor</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deHanoverFactory</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="obtainable">FieldGun</effect>
+      <effect type="TechStatus" status="obtainable">VeteranSkiInfantryShadow</effect>
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionBarbaryStates</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionIndonesia</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionNorway</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianLogisticianSwedish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianNaturalist</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianGovernor</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPhilosopherPrince</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianInventorColonial</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMercContractorFortressBritish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPirate</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianMarksmanDanish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianBishopFortress</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianExiledPrince</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianMusketeerBritish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianCavalierDanish</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianLogistician</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianEngineer</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianPapalGuard</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianGeneralSwedish</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPresidente</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianKnight</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMercContractor</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianRoyalistRussian</effect>
+      <effect type="TechStatus" status="obtainable">IncendiaryGrenades</effect>
+      <effect type="TechStatus" status="obtainable">MineWagonCardShadow</effect>
+      <effect type="Data2" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Explorer" skinid="0" relativity="Absolute">
+        <target type="ProtoUnit">deIconFemaleExplorerSWKristina</target>
+      </effect>
+      <effect type="Data2" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Explorer" skinid="2" relativity="Absolute">
+        <target type="ProtoUnit">deIconExplorerSWThor</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEColonializedanish" type="Normal">
+    <dbid>12001</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_2.png</icon>
+    <effects>
+      <effect type="TechStatus" status="active">Colonialize</effect>
+        <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+          <target type="ProtoUnit">OxCart</target>
+        </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OxCart" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEFortressizedanish" type="Normal">
+    <dbid>12002</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">CoveredWagon</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+          <target type="ProtoUnit">OxCart</target>
+        </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OxCart" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEIndustrializedanish" type="Normal">
+    <dbid>12003</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_4.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+        <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+          <target type="ProtoUnit">OxCart</target>
+        </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OxCart" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEImperializedanish" type="Normal">
+    <dbid>12004</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_5.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionBarbaryStates</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionIndonesia</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionFinland</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OxCart" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEPostIndustrialdanish" type="Normal">
+    <dbid>12005</dbid>
+    <displaynameid>36246</displaynameid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\organ_gun\organ_gun_icon_64x64.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Gangsaw</effect>
+      <effect type="TechStatus" status="active">CavalryCuirass</effect>
+      <effect type="TechStatus" status="active">Bayonet</effect>
+      <effect type="TechStatus" status="active">Rifling</effect>
+      <effect type="TechStatus" status="active">GunnersQuadrant</effect>
+      <effect type="TechStatus" status="active">HeatedShot</effect>
+      <effect type="TechStatus" status="active">InfantryBreastplate</effect>
+      <effect type="TechStatus" status="active">SeedDrill</effect>
+      <effect type="TechStatus" status="active">SelectiveBreeding</effect>
+      <effect type="TechStatus" status="active">HuntingDogs</effect>
+      <effect type="TechStatus" status="active">Revetment</effect>
+      <effect type="TechStatus" status="active">Bastion</effect>
+      <effect type="TechStatus" status="active">PlacerMines</effect>
+      <effect type="TechStatus" status="active">Caracole</effect>
+      <effect type="TechStatus" status="active">OreRefining</effect>
+      <effect type="TechStatus" status="active">ArmorPlating</effect>
+      <effect type="TechStatus" status="active">Carronade</effect>
+      <effect type="TechStatus" status="active">PercussionLocks</effect>
+      <effect type="TechStatus" status="active">ChurchTownWatch</effect>
+      <effect type="TechStatus" status="active">ChurchStandingArmy</effect>
+      <effect type="TechStatus" status="active">ChurchGasLighting</effect>
+      <effect type="TechStatus" status="active">Blunderbuss</effect>
+      <effect type="TechStatus" status="active">GreatCoat</effect>
+      <effect type="TechStatus" status="active">LogFlume</effect>
+      <effect type="TechStatus" status="active">Bookkeeping</effect>
+      <effect type="TechStatus" status="active">ArtificialFertilizer</effect>
+      <effect type="TechStatus" status="active">CircularSaw</effect>
+      <effect type="TechStatus" status="active">Amalgamation</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="TechStatus" status="active">Homesteading</effect>
+      <effect type="TechStatus" status="active">LongLines</effect>
+      <effect type="TechStatus" status="active">GillNets</effect>
+      <effect type="TechStatus" status="active">FrontierOutpost</effect>
+      <effect type="TechStatus" status="active">SteelTraps</effect>
+      <effect type="TechStatus" status="active">FactoryWaterPower</effect>
+      <effect type="TechStatus" status="active">FactorySteamPower</effect>
+      <effect type="TechStatus" status="active">FactoryCannery</effect>
+      <effect type="TechStatus" status="active">StarFort</effect>
+      <effect type="TechStatus" status="active">FortifiedOutpost</effect>
+      <effect type="TechStatus" status="active">ChurchMassCavalry</effect>
+      <effect type="TechStatus" status="active">VeteranHussars</effect>
+      <effect type="TechStatus" status="active">VeteranPikemen</effect>
+      <effect type="TechStatus" status="active">VeteranMusketeers</effect>
+      <effect type="TechStatus" status="active">GrapeShot</effect>
+      <effect type="TechStatus" status="active">Howitzer</effect>
+      <effect type="TechStatus" status="active">FieldGun</effect>
+      <effect type="TechStatus" status="active">Trunion</effect>
+      <effect type="TechStatus" status="active">ProfessionalGunners</effect>
+      <effect type="TechStatus" status="active">PaperCartridge</effect>
+      <effect type="TechStatus" status="active">MilitaryDrummers</effect>
+      <effect type="TechStatus" status="active">Flintlock</effect>
+      <effect type="TechStatus" status="active">Pillage</effect>
+      <effect type="TechStatus" status="active">FactoryMassProduction</effect>
+      <effect type="TechStatus" status="active">RGZealandLifeHussars</effect>
+      <effect type="TechStatus" status="active">RGLandsoldat</effect>
+      <effect type="TechStatus" status="active">GuardSkirmishers</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyAztecs</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyTupi</effect>
+      <effect type="TechStatus" status="active">WarriorSocietySeminoles</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyNootka</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyMaya</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyLakota</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyIroquois</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyInca</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyCree</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyComanche</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyCherokee</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyCaribs</effect>
+      <effect type="TechStatus" status="active">ChampionAztecs</effect>
+      <effect type="TechStatus" status="active">ChampionCaribs</effect>
+      <effect type="TechStatus" status="active">ChampionCherokee</effect>
+      <effect type="TechStatus" status="active">ChampionComanche</effect>
+      <effect type="TechStatus" status="active">ChampionCree</effect>
+      <effect type="TechStatus" status="active">ChampionInca</effect>
+      <effect type="TechStatus" status="active">ChampionIroquois</effect>
+      <effect type="TechStatus" status="active">ChampionLakota</effect>
+      <effect type="TechStatus" status="active">ChampionMaya</effect>
+      <effect type="TechStatus" status="active">ChampionNootka</effect>
+      <effect type="TechStatus" status="active">ChampionSeminoles</effect>
+      <effect type="TechStatus" status="active">ChampionTupi</effect>
+      <effect type="TechStatus" status="active">AAStandardNativeTechsPI</effect>
+      <effect type="TechStatus" status="active">HeavyHorseArtillery</effect>
+      <effect type="TechStatus" status="active">ShipHowitzers</effect>
+      <effect type="TechStatus" status="active">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="active">GuardGrenadiers</effect>
+      <effect type="TechStatus" status="active">VeteranFinnishRiders</effect>
+      <effect type="TechStatus" status="active">RGDrabants</effect>
+      <effect type="TechStatus" status="active">deInfantryGuns</effect>
+      <effect type="TechStatus" status="active">IncendiaryGrenades</effect>
+      <effect type="TechStatus" status="active">DEWarriorSocietySPCLenape</effect>
+      <effect type="TechStatus" status="active">DEChampionSPCLenape</effect>
+      <effect type="TechStatus" status="active">DENatDisciplinedTengri</effect>
+      <effect type="TechStatus" status="active">DENatHonoredTengri</effect>
+    </effects>
+  </tech>
+  <tech name="DEPostImperialdanish" type="Normal">
+    <dbid>12006</dbid>
+    <displaynameid>36325</displaynameid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\organ_gun\organ_gun_icon_64x64.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">ImpLargeScaleAgriculture</effect>
+      <effect type="TechStatus" status="active">ImpImmigrants</effect>
+      <effect type="TechStatus" status="active">ImpDeforestation</effect>
+      <effect type="TechStatus" status="active">ImpKnighthood</effect>
+      <effect type="TechStatus" status="active">ImpExcessiveTaxation</effect>
+      <effect type="TechStatus" status="active">ImpPeerage</effect>
+      <effect type="TechStatus" status="active">DEPostIndustrial</effect>
+      <effect type="TechStatus" status="active">ImperialZealandLife</effect>
+      <effect type="TechStatus" status="active">ImperialCulverin</effect>
+      <effect type="TechStatus" status="active">ImperialCannon</effect>
+      <effect type="TechStatus" status="active">ImperialHowitzer</effect>
+      <effect type="TechStatus" status="active">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="active">ImperialMonitors</effect>
+      <effect type="TechStatus" status="active">ImperialManOWar</effect>
+      <effect type="TechStatus" status="active">ImpLegendaryNatives</effect>
+      <effect type="TechStatus" status="active">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="active">ImperialLandsoldat</effect>
+      <effect type="TechStatus" status="active">ImperialSkirmishers</effect>
+      <effect type="TechStatus" status="active">ImperialDrabants</effect>
+      <effect type="TechStatus" status="active">deImperialInfantryGuns</effect>
+      <effect type="TechStatus" status="active">ImperialGrenadiers</effect>
+    </effects>
+  </tech>
+  <tech name="Age0Polish" type="Normal">
+    <dbid>12007</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
+      <effect type="Data" action="BuildingAttack" amount="3.00" subtype="Damage" relativity="Absolute">
+        <target type="ProtoUnit">Explorer</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">STARKPolishGreatHarvest</effect>
+      <effect type="TechStatus" status="active">AAStandardStartingTechs</effect>
+      <effect type="TechStatus" status="active">DEEuropeanStandardTechs</effect>
+      <effect type="TechStatus" status="obtainable">DEHCShipLongbowShadow</effect>
+      <effect type="TechStatus" status="obtainable">DEShipCavArcherShadow</effect>
+      <effect type="SetName" tech="DEHCHandMortar" newname="91787" newrollover="91786">
+      </effect>
+      <effect type="TechStatus" status="obtainable">GuardCossacks</effect>
+      <effect type="TechStatus" status="obtainable">VeteranCossacks</effect>
+      <effect type="TechStatus" status="obtainable">ChurchWesternization</effect>
+      <effect type="TechStatus" status="obtainable">ChurchKalmucks</effect>
+      <effect type="TechStatus" status="obtainable">ChurchBashkirPonies</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Cossack</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Sheep</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">HouseEast</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ChurchPetrineReforms</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Strelet</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">GuardStrelets</effect>
+      <effect type="TechStatus" status="obtainable">VeteranStrelets</effect>
+      <effect type="TechStatus" status="obtainable">ImperialStrelets</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialCossack</effect>
+      <effect type="TechStatus" status="obtainable">RGTartarLoyalists</effect>
+      <effect type="TechStatus" status="obtainable">ImperialTartarLoyalist</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Oprichnik</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">GuardOprichniks</effect>
+      <effect type="TechStatus" status="obtainable">ImperialOprichniks</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">STARKFolwark</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Falconet</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">ArtilleryDepot</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Plantation</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Mortar</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Blockhouse</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPTrickle</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Market</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Arsenal</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CWallGate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Church</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight2</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallStraight5</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">WallConnector</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FieldHospital</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Priest</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">CavalryArcher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Monitor</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Caravel</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">FrontierBlockhouse</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Culverin</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">FortifiedBlockhouse</effect>
+      <effect type="TechStatus" status="obtainable">Bayonet</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Factory</target>
+      </effect>
+      <effect type="Data" action="SpawnCannon" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">deHanoverFactory</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialCannon</effect>
+      <effect type="TechStatus" status="obtainable">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="obtainable">FieldGun</effect>
+      <effect type="TechStatus" status="obtainable">ImperialManOWar</effect>
+      <effect type="TechStatus" status="obtainable">ImperialMonitors</effect>
+      <effect type="TechStatus" status="obtainable">VeteranCavalryArchersShadow</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <!-- <effect type="TechStatus" status="obtainable">DERevolutionFinland</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionHungaryRussian</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionRomania</effect> -->
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpPetard</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">IncendiaryGrenades</effect>
+      <effect type="TechStatus" status="obtainable">ImperialHorseArtillery</effect>
+      <effect type="TechStatus" status="obtainable">HeavyHorseArtillery</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpHorseArtillery</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">xpSpy</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ShipHowitzers</effect>
+      <effect type="SetName" tech="DERevolutionRomania" newname="80819" newrollover="90351">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="GreatBombard" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="AddSharedBuildLimitUnitType" unittype="Outpost" relativity="Absolute">
+        <target type="ProtoUnit">OutpostWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddSharedBuildLimitUnitType" unittype="Blockhouse" relativity="Absolute">
+        <target type="ProtoUnit">OutpostWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddSharedBuildLimitUnitType" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="ProtoUnit">OutpostWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddSharedBuildLimitUnitType" unittype="OutpostWagon" relativity="Absolute">
+        <target type="ProtoUnit">ypBlockhouseWagon</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="SharedBuildLimitUnit" unittype="Blockhouse" relativity="Assign">
+        <target type="ProtoUnit">OutpostWagon</target>
+      </effect>
+      <effect type="SetName" tech="HCXPUnlockFort2" newname="46498" newrollover="41674">
+      </effect>
+      <effect type="Data2" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Explorer" skinid="2" relativity="Absolute">
+        <target type="ProtoUnit">deIconFemaleExplorerRUBear</target>
+      </effect>
+      <effect type="Data2" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Explorer" skinid="3" relativity="Absolute">
+        <target type="ProtoUnit">deIconFemaleExplorer</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">PoliticianNaturalist</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianQuartermasterRussian</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianPhilosopherPrinceRussian</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianLogisticianColonialRussian</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianInventorColonial</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianGentlemanPirateRussian</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianAdventurerRussian</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianScoutRussian</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianExiledPrinceRussian</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianBishopFortress</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianCavalierRussian</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianWarMinisterRussian</effect>
+      <effect type="TechStatus" status="obtainable">UnlockPoliticianKingsMusketeerRussian</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianEngineer</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianLogisticianRussian</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianPresidente</effect>
+      <effect type="TechStatus" status="obtainable">PoliticianGeneral</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianMercContractor</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianKnight</effect>
+      <effect type="TechStatus" status="obtainable">DEPoliticianRoyalistRussian</effect>
+    </effects>
+  </tech>
+  <tech name="ColonializePolish" type="Normal">
+    <dbid>12008</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_2.png</icon>
+    <effects>
+      <effect type="TechStatus" status="active">Colonialize</effect>
+    </effects>
+  </tech>
+    <tech name="FortressizePolish" type="Normal">
+    <dbid>12009</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_3.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Fortressize</effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNMPandour</target>
+      </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNMPandour</target>
+      </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="2.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">deNMPandour</target>
+      </effect>
+    </effects>
+  </tech>
+   <tech name="IndustrializePolish" type="Normal">
+    <dbid>12010</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_4.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Industrialize</effect>
+    </effects>
+  </tech>
+  <tech name="ImperializePolish" type="Normal">
+    <dbid>12011</dbid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\post_game\time_line_age_5.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Imperialize</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionFinland</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionHungaryRussian</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionRomania</effect>
+    </effects>
+  </tech>
+  <tech name="PostIndustrialPolish" type="Normal">
+    <dbid>12012</dbid>
+    <displaynameid>36258</displaynameid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\organ_gun\organ_gun_icon_64x64.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">Gangsaw</effect>
+      <effect type="TechStatus" status="active">CavalryCuirass</effect>
+      <effect type="TechStatus" status="active">Bayonet</effect>
+      <effect type="TechStatus" status="active">Rifling</effect>
+      <effect type="TechStatus" status="active">GunnersQuadrant</effect>
+      <effect type="TechStatus" status="active">HeatedShot</effect>
+      <effect type="TechStatus" status="active">InfantryBreastplate</effect>
+      <effect type="TechStatus" status="active">SeedDrill</effect>
+      <effect type="TechStatus" status="active">SelectiveBreeding</effect>
+      <effect type="TechStatus" status="active">HuntingDogs</effect>
+      <effect type="TechStatus" status="active">Revetment</effect>
+      <effect type="TechStatus" status="active">Bastion</effect>
+      <effect type="TechStatus" status="active">PlacerMines</effect>
+      <effect type="TechStatus" status="active">Caracole</effect>
+      <effect type="TechStatus" status="active">OreRefining</effect>
+      <effect type="TechStatus" status="active">ArmorPlating</effect>
+      <effect type="TechStatus" status="active">Carronade</effect>
+      <effect type="TechStatus" status="active">PercussionLocks</effect>
+      <effect type="TechStatus" status="active">ChurchTownWatch</effect>
+      <effect type="TechStatus" status="active">ChurchStandingArmy</effect>
+      <effect type="TechStatus" status="active">ChurchGasLighting</effect>
+      <effect type="TechStatus" status="active">Blunderbuss</effect>
+      <effect type="TechStatus" status="active">GreatCoat</effect>
+      <effect type="TechStatus" status="active">LogFlume</effect>
+      <effect type="TechStatus" status="active">Bookkeeping</effect>
+      <effect type="TechStatus" status="active">ArtificialFertilizer</effect>
+      <effect type="TechStatus" status="active">CircularSaw</effect>
+      <effect type="TechStatus" status="active">Amalgamation</effect>
+      <effect type="TechStatus" status="active">Levy</effect>
+      <effect type="TechStatus" status="active">Homesteading</effect>
+      <effect type="TechStatus" status="active">LongLines</effect>
+      <effect type="TechStatus" status="active">GillNets</effect>
+      <effect type="TechStatus" status="active">FrontierBlockhouse</effect>
+      <effect type="TechStatus" status="active">SteelTraps</effect>
+      <effect type="TechStatus" status="active">FactoryWaterPower</effect>
+      <effect type="TechStatus" status="active">FactorySteamPower</effect>
+      <effect type="TechStatus" status="active">FactoryCannery</effect>
+      <effect type="TechStatus" status="active">StarFort</effect>
+      <effect type="TechStatus" status="active">FortifiedBlockhouse</effect>
+      <effect type="TechStatus" status="active">ChurchMassCavalry</effect>
+      <effect type="TechStatus" status="active">VeteranCossacks</effect>
+      <effect type="TechStatus" status="active">GuardCossacks</effect>
+      <effect type="TechStatus" status="active">GuardHalberdiers</effect>
+      <effect type="TechStatus" status="active">VeteranGrenadiers</effect>
+      <effect type="TechStatus" status="active">ChurchWesternization</effect>
+      <effect type="TechStatus" status="active">ChurchPetrineReforms</effect>
+      <effect type="TechStatus" status="active">GuardStrelets</effect>
+      <effect type="TechStatus" status="active">VeteranStrelets</effect>
+      <effect type="TechStatus" status="active">GuardOprichniks</effect>
+      <effect type="TechStatus" status="active">GrapeShot</effect>
+      <effect type="TechStatus" status="active">Howitzer</effect>
+      <effect type="TechStatus" status="active">FieldGun</effect>
+      <effect type="TechStatus" status="active">Trunion</effect>
+      <effect type="TechStatus" status="active">ProfessionalGunners</effect>
+      <effect type="TechStatus" status="active">PaperCartridge</effect>
+      <effect type="TechStatus" status="active">MilitaryDrummers</effect>
+      <effect type="TechStatus" status="active">Flintlock</effect>
+      <effect type="TechStatus" status="active">Pillage</effect>
+      <effect type="TechStatus" status="active">FactoryMassProduction</effect>
+      <effect type="TechStatus" status="active">VeteranCavalryArchersShadow</effect>
+      <effect type="TechStatus" status="active">RGPavlovGrenadiers</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyTupi</effect>
+      <effect type="TechStatus" status="active">WarriorSocietySeminoles</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyNootka</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyMaya</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyLakota</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyIroquois</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyInca</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyCree</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyComanche</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyCherokee</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyCaribs</effect>
+      <effect type="TechStatus" status="active">WarriorSocietyAztecs</effect>
+      <effect type="TechStatus" status="active">ChampionAztecs</effect>
+      <effect type="TechStatus" status="active">ChampionCaribs</effect>
+      <effect type="TechStatus" status="active">ChampionCherokee</effect>
+      <effect type="TechStatus" status="active">ChampionComanche</effect>
+      <effect type="TechStatus" status="active">ChampionCree</effect>
+      <effect type="TechStatus" status="active">ChampionInca</effect>
+      <effect type="TechStatus" status="active">ChampionIroquois</effect>
+      <effect type="TechStatus" status="active">ChampionLakota</effect>
+      <effect type="TechStatus" status="active">ChampionMaya</effect>
+      <effect type="TechStatus" status="active">ChampionNootka</effect>
+      <effect type="TechStatus" status="active">ChampionSeminoles</effect>
+      <effect type="TechStatus" status="active">ChampionTupi</effect>
+      <effect type="TechStatus" status="active">RGTartarLoyalists</effect>
+      <effect type="TechStatus" status="active">AAStandardNativeTechsPI</effect>
+      <effect type="TechStatus" status="active">HeavyHorseArtillery</effect>
+      <effect type="TechStatus" status="active">ShipHowitzers</effect>
+      <effect type="TechStatus" status="active">DEWarriorSocietySPCLenape</effect>
+      <effect type="TechStatus" status="active">DEChampionSPCLenape</effect>
+      <effect type="TechStatus" status="active">DENatDisciplinedTengri</effect>
+      <effect type="TechStatus" status="active">DENatHonoredTengri</effect>
+    </effects>
+  </tech>
+  <tech name="PostImperialPolish" type="Normal">
+    <dbid>12013</dbid>
+    <displaynameid>36322</displaynameid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\artillery\organ_gun\organ_gun_icon_64x64.png</icon>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">ImpLargeScaleAgriculture</effect>
+      <effect type="TechStatus" status="active">ImpImmigrants</effect>
+      <effect type="TechStatus" status="active">ImpDeforestation</effect>
+      <effect type="TechStatus" status="active">ImpKnighthood</effect>
+      <effect type="TechStatus" status="active">ImpExcessiveTaxation</effect>
+      <effect type="TechStatus" status="active">ImpPeerage</effect>
+      <effect type="TechStatus" status="active">PostIndustrialRussian</effect>
+      <effect type="TechStatus" status="active">ImperialTartarLoyalist</effect>
+      <effect type="TechStatus" status="active">ImperialCossack</effect>
+      <effect type="TechStatus" status="active">DEImperialRussianHalberdiers</effect>
+      <effect type="TechStatus" status="active">ImperialPavlovs</effect>
+      <effect type="TechStatus" status="active">ImperialStrelets</effect>
+      <effect type="TechStatus" status="active">ImperialOprichniks</effect>
+      <effect type="TechStatus" status="active">DEImperialRussianMusketeers</effect>
+      <effect type="TechStatus" status="active">ImperialCulverin</effect>
+      <effect type="TechStatus" status="active">ImperialCannon</effect>
+      <effect type="TechStatus" status="active">ImperialHowitzer</effect>
+      <effect type="TechStatus" status="active">ImperialFieldGun</effect>
+      <effect type="TechStatus" status="active">ImperialManOWar</effect>
+      <effect type="TechStatus" status="active">ImperialMonitors</effect>
+      <effect type="TechStatus" status="active">ImpLegendaryNatives</effect>
+      <effect type="TechStatus" status="active">ImperialHorseArtillery</effect>
+    </effects>
+  </tech>
+    <tech name="RGLandsoldat" type="Normal">
+    <dbid>12014</dbid>
+    <displaynameid>500088</displaynameid>
+    <cost resourcetype="Wood">750.0000</cost>
+    <cost resourcetype="Gold">750.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_infantry\guard_infantry.png</icon>
+    <rollovertextid>500092</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">VeteranMusketeers</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="TechStatus" status="active">GuardMusketeers</effect>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="500089">
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImperialLandsoldat" type="Normal">
+    <dbid>12015</dbid>
+    <displaynameid>500090</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_infantry\imperial_infantry.png</icon>
+    <rollovertextid>30958</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">GuardMusketeers</techstatus>
+      <techstatus status="Active">RGLandsoldat</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="SetName" proto="Musketeer" culture="none" newname="500091">
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Musketeer" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+    <tech name="RGZealandLifeHussars" type="Normal">
+    <dbid>12015</dbid>
+    <displaynameid>500093</displaynameid>
+    <cost resourcetype="Wood">850.0000</cost>
+    <cost resourcetype="Gold">850.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>500095</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+      <techstatus status="Active">VeteranHussars</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="Data" amount="1.10" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="TechStatus" status="active">GuardHussars</effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Hussar" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="SetName" proto="Hussar" culture="none" newname="500094">
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImperialZealandLife" type="Normal">
+    <dbid>12016</dbid>
+    <displaynameid>500108</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>31015</rollovertextid>
+    <flag>UpgradeTech</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">GuardHussars</techstatus>
+      <techstatus status="Active">RGZealandLifeHussars</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="SetName" proto="Hussar" culture="none" newname="500109">
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hussar</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Hussar" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCBattlefieldEngineering" type="Normal">
+    <dbid>12017</dbid>
+    <displaynameid>500096</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_battlefield_construction\hc_battlefield_construction.png</icon>
+    <rollovertextid>500097</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+     	<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Barracks' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>OxCart</Target>
+      </Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='Stable' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>OxCart</Target>
+      </Effect>
+			<Effect type ='Data' amount ='1.00' subtype ='AddTrain' unittype ='ArtilleryDepot' relativity ='Absolute'>
+				<Target type ='ProtoUnit'>OxCart</Target>
+      </Effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="HCSoundToll" type="Normal">
+    <dbid>12018</dbid>
+    <displaynameid>500098</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\europeans\oldenburg\oresund_customs.png</icon>
+    <rollovertextid>500099</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="AutoGatherCoin" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">HCSoundTollShadow</effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="HCSoundTollShadow" type="Normal">
+    <dbid>12019</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DENatOldenBurgOresundCustoms</techstatus>
+      <techstatus status="Active">HCSoundToll</techstatus>
+    </prereqs>
+    <effects>
+        <effect type="Data" action="AutoGatherCoin" amount="1.25" subtype="WorkRate" unittype="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DENatOldenBurgOresundCustoms" type="Normal">
+    <effects>
+      <effect mergeMode="add" type="Data" action="AutoGatherOldenburg" amount="0.2" subtype="WorkRate" unittype="Gold" relativity="Override">
+        <target type="ProtoUnit">LBGunBoat</target>
+      </effect>
+      <effect mergeMode="add" type="TechStatus" status="obtainable">HCSoundTollShadow</effect>
+    </effects>
+  </tech>
+  <tech name="HCOldenburg" type="Normal">
+    <dbid>12020</dbid>
+    <displaynameid>126786</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\germans\allies_oldenburg.png</icon>
+    <rollovertextid>126970</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="SetOnShipmentSentTech" amount="1.00">DEShipGiantGrenadiers</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deMercGrenadier" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect civ="Oldenburg" type="Data" amount="1.00" subtype="UpgradeSubCivAlliance" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="SetName" proto="NativeEmbassy" culture="none" newname="124945">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="NativeEmbassy" relativity="Absolute">
+        <target type="ProtoUnit">deIconEuropeanEmbassy</target>
+      </effect>
+      <effect type="TechStatus" status="active">deMapIsEuropean</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deEmbassyTravois" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="deNatNorthernMusketeer" relativity="Absolute">
+        <target type="ProtoUnit">deIconPENorthernMusketeer</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="deNatRoyalHunter" relativity="Absolute">
+        <target type="ProtoUnit">deIconPERoyalHunter</target>
+      </effect>
+      <effect type="SetName" proto="deEmbassyTravois" culture="none" newname="80597" newrollover="103345" newshortrollover="103344">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="deEmbassyTravois" relativity="Absolute">
+        <target type="ProtoUnit">deIconEuropeanEmbassyTravois</target>
+      </effect>
+      <effect type="TechStatus" status="active">DEUnknownAllianceOldenburg</effect>
+      <effect type="Data" amount="-1.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">NativeEmbassy</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipOxCartRepeat" type="Normal">
+    <dbid>12021</dbid>
+    <displaynameid>500102</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\homecity\danish\infinite_ox_carts.png</icon>
+    <rollovertextid>500103</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="OxCart" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HeavyEspingols" type="Normal">
+    <dbid>12021</dbid>
+    <displaynameid>500111</displaynameid>
+    <cost resourcetype="Food">250.0000</cost>
+    <cost resourcetype="Wood">250.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_artillery\guard_artillery.png</icon>
+    <rollovertextid>31285</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="SetName" proto="Espingol" culture="none" newname="500112">
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImperialEspingols" type="Normal">
+    <dbid>12022</dbid>
+    <displaynameid>500113</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_artillery\imperial_artillery.png</icon>
+    <rollovertextid>31085</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">HeavyEspingols</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="SetName" proto="Espingol" culture="none" newname="500114">
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipEspingols1" type="Normal">
+    <dbid>12023</dbid>
+    <displaynameid>500116</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\gatling_gun_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="Espingol" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipEspingols2" type="Normal">
+    <dbid>12024</dbid>
+    <displaynameid>500117</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\gatling_gun_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Espingol" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipEspingolRepeat" type="Normal">
+    <dbid>12025</dbid>
+    <displaynameid>500118</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_gatling_gun.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Espingol" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="VeteranFriskytter" type="Normal">
+    <dbid>12026</dbid>
+    <displaynameid>500120</displaynameid>
+    <cost resourcetype="Food">200.0000</cost>
+    <cost resourcetype="Wood">200.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\veteran_cavalry\veteran_cavalry.png</icon>
+    <rollovertextid>31285</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Friskytte</target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Friskytte</target>
+      </effect>
+      <effect type="SetName" proto="Friskytte" culture="none" newname="500121">
+      </effect>
+    </effects>
+  </tech>
+    <tech name="GuardFriskytter" type="Normal">
+    <dbid>12027</dbid>
+    <displaynameid>500122</displaynameid>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Wood">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>23871</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">VeteranFriskytter</techstatus>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Friskytte</target>
+      </effect>
+      <effect type="SetName" proto="Friskytte" culture="none" newname="500123">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Friskytte" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Friskytte</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImperialFriskytter" type="Normal">
+    <dbid>12028</dbid>
+    <displaynameid>500124</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>30932</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">GuardFriskytter</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Friskytte</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Friskytte</target>
+      </effect>
+      <effect type="SetName" proto="Friskytte" culture="none" newname="500125">
+      </effect>
+    </effects>
+  </tech>
+  <tech name="VeteranSkiInfantryShadow" type="Normal">
+    <dbid>12029</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+      <effect type="SetName" proto="SkiInfantry" culture="none" newname="500127">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="SkiInfantry" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="GuardSkiInfantry" type="Normal">
+    <dbid>12030</dbid>
+    <displaynameid>500128</displaynameid>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Wood">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>23871</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+      <effect type="SetName" proto="SkiInfantry" culture="none" newname="500128">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="SkiInfantry" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImperialSkiInfantry" type="Normal">
+    <dbid>12031</dbid>
+    <displaynameid>500129</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>30932</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">DEREVImperializeNorwayShadow</techstatus>
+      <techstatus status="Active">GuardSkiInfantry</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+      <effect type="SetName" proto="SkiInfantry" culture="none" newname="500129">
+      </effect>
+    </effects>
+  </tech>
+  <tech name="GuardRytter" type="Normal">
+    <dbid>12032</dbid>
+    <displaynameid>500131</displaynameid>
+    <cost resourcetype="Food">600.0000</cost>
+    <cost resourcetype="Wood">600.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\guard_cavalry\guard_cavalry.png</icon>
+    <rollovertextid>23871</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <flag>UpgradeTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rytter</target>
+      </effect>
+      <effect type="SetName" proto="Rytter" culture="none" newname="500132">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Rytter" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Rytter</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImperialRytter" type="Normal">
+    <dbid>12033</dbid>
+    <displaynameid>500133</displaynameid>
+    <cost resourcetype="Wood">1500.0000</cost>
+    <cost resourcetype="Gold">1500.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\imperial_cavalry\imperial_cavalry.png</icon>
+    <rollovertextid>30932</rollovertextid>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+      <techstatus status="Active">GuardRytter</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Rytter</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Rytter</target>
+      </effect>
+      <effect type="SetName" proto="Rytter" culture="none" newname="500134">
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCContractMercsBosniaks" type="Normal">
+    <dbid>12034</dbid>
+    <displaynameid>500135</displaynameid>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\homecity\danish\contract_bosniak.png</icon>
+    <rollovertextid>500136</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>DEFortressMercShipment</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="deMercBosniak" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMercBosniak</target>
+      </effect>
+      <effect type="TextOutput">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipCaribou" type="Normal">
+    <dbid>12035</dbid>
+    <displaynameid>500137</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\caribou\caribou_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="caribou" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipFishCrateDM" type="Normal">
+    <dbid>12036</dbid>
+    <displaynameid>500138</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\animals\fish\cod_icon_infinite.png</icon>
+    <rollovertextid>500177</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>DECheckBuildLimit</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deCrateofFish" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipRytter1" type="Normal">
+    <dbid>12037</dbid>
+    <displaynameid>500139</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\black_rider\black_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Rytter" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipRytter2" type="Normal">
+    <dbid>12038</dbid>
+    <displaynameid>500140</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\black_rider\black_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="FreeHomeCityUnit" unittype="Rytter" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCShipRytter3" type="Normal">
+    <dbid>12039</dbid>
+    <displaynameid>500141</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\mercenaries\black_rider\black_rider_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Rytter" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipGunboats1" type="Normal">
+    <dbid>12040</dbid>
+    <displaynameid>500142</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\africans\infinite_battle_canoe.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="LBGunboat" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCShipGunboats2" type="Normal">
+    <dbid>12041</dbid>
+    <displaynameid>500143</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\naval\battle_canoe\hc_battle_canoe_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="FreeHomeCityUnit" unittype="LBGunboat" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DERevolutionNorway" type="Normal">
+    <dbid>12042</dbid>
+    <displaynameid>500144</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution.png</icon>
+    <rollovertextid>500179</rollovertextid>
+    <revolutionciv>DERevNorway</revolutionciv>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>RevoltTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="SetName" tech="DEHCREVTreeSpawn" newname="500171">
+      </effect>
+      <effect type="TechStatus" status="active">DEHCUSMarines</effect>
+      <effect type="SetName" proto="deMinuteman" culture="none" newname="500178">
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deMinuteman</target>
+      </effect>
+      <effect type="CommandAdd" proto="deMinuteman" page="0" column="0">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">LBGunboat</target>
+      </effect>
+      <effect type="Data" action="RangedAttackContained" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">LBGunboat</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" action="RangedAttackContained" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpIronclad</target>
+      </effect>
+      <effect type="Data" action="RangedAttackContained" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">xpIronclad</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" action="RangedAttackContained" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Frigate</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="deMinuteman" relativity="Absolute">
+        <target type="ProtoUnit">Galleon</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">deTavern</target>
+      </effect>
+      <effect type="InitiateRevolution" proto="deMinuteman">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPRevolution</effect>
+      <effect type="CommandRemove" proto="Settler">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Dock" relativity="Absolute">
+        <target type="ProtoUnit">deMinuteman</target>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranFinnishRiders</effect>
+      <effect type="TechStatus" status="obtainable">RGDrabants</effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deFinnishRider</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deTorp</target>
+      </effect>
+      <effect type="CommandRemove" proto="deTorpGeneric">
+        <target type="ProtoUnit">deTorpWagon</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCNorthernWhaling" type="Normal">
+    <dbid>12043</dbid>
+    <displaynameid>500148</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\homecity\danish\northern_whaling_grounds.png</icon>
+    <rollovertextid>500149</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>CheckWaterHCGatherPoint</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="MinkeWhale" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.15" subtype="WorkRate" unittype="AbstractWhale" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingBoat</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="NatOldenburgRoyalLifeGuard" type="Normal">
+    <dbid>12044</dbid>
+    <displaynameid>500151</displaynameid>
+    <cost resourcetype="Gold">750.0000</cost>
+    <researchpoints>30.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\europeans\Oldenburg\RoyalLifeGuard.png</icon>
+    <rollovertextid>500152</rollovertextid>
+    <flag>YPNativeImprovement</flag>
+    <flag>CountsTowardMilitaryScore</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="SetOnShipmentSentTech" amount="1.00">DEShipRoyalGrenadiers</effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deNatMercRoyalGrenadier" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">deNatMercRoyalGrenadier</target>
+      </effect>
+      <effect type="CommandAdd" proto="deNatMercRoyalGrenadier" page="0" column="3">
+        <target type="ProtoUnit">TradingPost</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEShipRoyalGrenadiers" type="Normal">
+    <dbid>12045</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>YPInfiniteTech</flag>
+    <flag>CheckLandHCGatherPoint</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="deNatMercRoyalGrenadier" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DECivCentralSettler" type="Normal">
+    <dbid>12046</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Settler" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCExplorerDanish" type="Normal">
+    <dbid>12047</dbid>
+    <displaynameid>500153</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\homecity\danish\opportunist.png</icon>
+    <rollovertextid>500154</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="ExplorerDog" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <!-- <effect type="TechStatus" status="active">DanishExplorerTradeShadow</effect> -->
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" amount="4.00" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="TextOutput">91669</effect>
+    </effects>
+  </tech>
+  <tech name="DanishExplorerTradeShadow" type="Normal">
+    <dbid>12046</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="TechStatus" status="active">ypConsulateSpanishEnhancedProfits</effect>
+      <effect type="Data" amount="0.75" subtype="InventoryAmount" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractWoodCrate</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="InventoryAmount" resource="Food" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFoodCrate</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="InventoryAmount" resource="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCoinCrate</target>
+      </effect>
+      <effect type="Data" amount="0.75" subtype="InventoryAmount" resource="XP" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractXPCrate</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCKongsberg" type="Normal">
+    <dbid>12047</dbid>
+    <displaynameid>500155</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\buildings\silver_mine\silver_mine_icon.png</icon>
+    <rollovertextid>500156</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagonSilver" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="HCScandinavianForests" type="Normal">
+    <dbid>12048</dbid>
+    <displaynameid>500157</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\homecity\danish\northern_forests.png</icon>
+    <rollovertextid>500158</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="5.00" subtype="Yield" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="HCGunboatWar" type="Normal">
+    <dbid>12049</dbid>
+    <displaynameid>500159</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\homecity\danish\gunboatwar.png</icon>
+    <rollovertextid>500160</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="3.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">LBGunBoat</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="Cost" resource="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">LBGunBoat</target>
+      </effect>
+      <effect type="Data" amount="0.85" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">LBGunBoat</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="HCCopenhagen" type="Normal">
+    <dbid>12049</dbid>
+    <displaynameid>500161</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\bastion\bastion.png</icon>
+    <rollovertextid>500162</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="CommandAdd" proto="Outpost" page="6" column="3">
+        <target type="ProtoUnit">OxCart</target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="FreeHomeCityUnit" unittype="OxCart" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="2.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="TextOutput">41945</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCRoyalDecreeDanish" type="Normal">
+    <dbid>12050</dbid>
+    <displaynameid>500163</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_royal_decree\hc_royal_decree.png</icon>
+    <rollovertextid>500164</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>OrPrereqs</flag>
+    <effects>
+      <effect type="TextOutput">91613</effect>
+    </effects>
+  </tech>
+  <tech name="HCShipGunboats3" type="Normal">
+    <dbid>12051</dbid>
+    <displaynameid>500163</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\naval\battle_canoe\hc_battle_canoe_icon.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="LBGunboat" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVShipSilverMines" type="Normal">
+    <dbid>12052</dbid>
+    <displaynameid>500164</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_silver_mine.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="deProspectorWagonSilver" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVShipCaribou" type="Normal">
+    <dbid>12053</dbid>
+    <displaynameid>500137</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\infinite_caribou.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="FreeHomeCityUnit" unittype="Caribou" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="PoliticianMarksmanDanish" type="Normal">
+    <dbid>12054</dbid>
+    <displaynameid>34405</displaynameid>
+    <cost resourcetype="Food">1200.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>105.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iii.png</icon>
+    <rollovertextid>500165</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age2</effect>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="SkiInfantry" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEPoliticianCavalierDanish" type="Normal">
+    <dbid>12055</dbid>
+    <displaynameid>35680</displaynameid>
+    <cost resourcetype="Food">2000.0000</cost>
+    <cost resourcetype="Gold">1200.0000</cost>
+    <researchpoints>90.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\ingame\icon_age_iv.png</icon>
+    <rollovertextid>500139</rollovertextid>
+    <flag>Shadow</flag>
+    <flag>AgeUpgrade</flag>
+    <flag>CountsTowardEconomicScore</flag>
+    <effects>
+      <effect type="SetAge">Age3</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="Rytter" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="HCLongRangedInfHitpointsTeam" type="Normal">
+    <dbid>12055</dbid>
+    <displaynameid>500166</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\hc_team_infantry_hitpoints\hc_team_infantry_hitpoints.png</icon>
+    <rollovertextid>500167</rollovertextid>
+    <flag>HomeCity</flag>
+    <flag>TeamTech</flag>
+    <effects>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractSkirmisher</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVShipOutposts" type="Normal">
+    <dbid>12056</dbid>
+    <displaynameid>500168</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution\suomenlinna.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="OutpostWagon" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="FreeHomeCityUnit" unittype="FortWagon" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVCapitolNorway" type="Normal">
+    <dbid>12057</dbid>
+    <displaynameid>500176</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <cost resourcetype="Gold">500.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\norwaycapitol.png</icon>
+    <rollovertextid>126880</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="CommandRemove" tech="ImpImmigrants">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="ImpDeforestation">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="ImpExcessiveTaxation">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="ImpKnighthood">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="ImpLargeScaleAgriculture">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="ImpPeerage">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="ImpLegendaryNatives">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="HCBlockade">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="CommandRemove" tech="Spies">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="TechStatus" status="active">DEHCREVCapitolShadow</effect>
+      <effect type="Data" amount="-2.00" subtype="AllowedAge" relativity="Absolute">
+        <target type="ProtoUnit">Capitol</target>
+      </effect>
+      <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVCapitolShadow" type="Normal">
+    <dbid>12058</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <effects>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="Tech">RevDeforestation</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="BasePercent">
+        <target type="Tech">RevDeforestation</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="Tech">RevExcessiveTaxation</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="Tech">RevExcessiveTaxation</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="Tech">RevKnighthood</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="Tech">RevLargeScaleAgriculture</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="BasePercent">
+        <target type="Tech">RevLargeScaleAgriculture</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="Tech">RevPeerage</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="Tech">RevLegendaryNatives</target>
+      </effect>
+      <effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="Tech">RevLegendaryNatives</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVNorwayLogging" type="Normal">
+    <dbid>12059</dbid>
+    <displaynameid>500169</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\europeans\oldenburg\hunting_expeditions.png</icon>
+    <rollovertextid>500170</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" action="AutoGatherCoinWood" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="DEHCREVBirkebeiner" type="Normal">
+    <dbid>12060</dbid>
+    <displaynameid>500172</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\sweden\savolax_jaegers.png</icon>
+    <rollovertextid>500173</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="Data" amount="6.00" subtype="FreeHomeCityUnit" unittype="SkiInfantry" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">SkiInfantry</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">ImperialSkiInfantry</effect>
+    </effects>
+  </tech>
+  <tech name="HCREVSilvermining" type="Normal">
+    <dbid>12061</dbid>
+    <displaynameid>500174</displaynameid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\kongsberg.png</icon>
+    <rollovertextid>500175</rollovertextid>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">DEHCEngelsbergIronworks</effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="AbstractMine" relativity="BasePercent">
+        <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractMountainMonastery" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.10" subtype="Yield" unittype="AbstractMountainMonastery" relativity="BasePercent">
+        <target type="ProtoUnit">LogicalTypeLandEconomy</target>
+      </effect>
+      <effect type="TextOutput">41921</effect>
+    </effects>
+  </tech>
+  <tech name="DEREVImperializeNorwayShadow" type="Normal">
+    <dbid>10697</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>OBTAINABLE</status>
+    <flag>Shadow</flag>
+    <flag>OrPrereqs</flag>
+    <flag>DEDisplayAsAge4Prereq</flag>
+    <prereqs>
+      <techstatus status="Active">DEHCREVBirkebeiner</techstatus>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+  </tech>
+</techtreemods>    
