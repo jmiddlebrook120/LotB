@@ -60,6 +60,11 @@ void initCivUnitTypes()
       {
          gHouseUnit = cUnitTypedeTorp;
       }
+
+      if (cMyCiv == cCivLBDanish)
+      {
+         gCaravelUnit = cUnitTypeLBGunboat;
+      }
       
       if (cMyCiv == cCivDEAmericans || cMyCiv == cCivDEMexicans)
       {
@@ -1352,12 +1357,12 @@ void initPersonality(void)
       {
          btRushBoom = 0.0;
       }
-      btOffenseDefense = 0.0;
+      btOffenseDefense = -0.2;
       btBiasCav = 0.0;
-      btBiasInf = 0.0;
+      btBiasInf = 0.4;
       btBiasArt = 0.0;
       btBiasNative = 0.0;
-      btBiasTrade = 0.0;
+      btBiasTrade = 1.0;
       break;
    }
    case cCivXPIroquois: // Fast fortress, trade and native bias.
