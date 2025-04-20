@@ -2,4 +2,13 @@
   <SkiInfantry>
     <ability>dePromotionRangeSPD<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
   </SkiInfantry>
+  <deNatMercRoyalGrenadier>
+    <ability>dePromotionHpDMG<alwaysdisabledingrid>true</alwaysdisabledingrid><forceshowrollover>true</forceshowrollover></ability>
+  </deNatMercRoyalGrenadier>
+  <lbgunboat>
+    <ability>PowerLongRange<rof>90</rof><tech>DEHCREVGunboats</tech><sharedcooldown>true</sharedcooldown></ability>
+  </lbgunboat>
+  <demercbattleship mergeMode="add">
+    <ability>PowerLongRange<rof>90</rof><tech>HCRoyalDanishNavy</tech><sharedcooldown>true</sharedcooldown></ability>
+  </demercbattleship>
 </abilitymods>

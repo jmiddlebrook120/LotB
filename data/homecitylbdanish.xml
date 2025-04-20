@@ -396,6 +396,13 @@
       <age>1</age>
     </card>
     <card>
+      <name>DEHCGrapeshot2</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
       <name>HCShipEspingols1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -474,14 +481,6 @@
       <age>2</age>
       <displayunitcount>9</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
-    </card>
-    <card>
-      <name>DEHCFinnhorses</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>3</age>
-      <bindtotech>DEHCREVFinnhorses</bindtotech>
     </card>
     <card>
       <name>HCShipGrenadiers1</name>
@@ -613,6 +612,13 @@
       <age>0</age>
     </card>
     <card>
+      <name>HCAdvancedArsenal</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCColonialMilitia</prereqtech>
+      <age>1</age>
+    </card>
+    <card>
       <name>HCPioneers</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -680,10 +686,17 @@
       <age>1</age>
     </card>
     <card>
-      <name>DEHCRangedCavalryCombat</name>
+      <name>HCCavalryCombatBritish</name>
       <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
+      <level>25</level>
+      <prereqtech>HCCavalryHitpointsBritish</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>HCDragoonCombatDanish</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCShipDragoons2</prereqtech>
       <age>2</age>
     </card>
     <card>
@@ -702,7 +715,7 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
-      <name>DEHCKalmarCastle</name>
+      <name>DEHCKronborgCastle</name>
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
@@ -1090,14 +1103,6 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCVasa</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <displayunitcount>1</displayunitcount>
-      <age>3</age>
-    </card>
-    <card>
       <name>HCAdmirality</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1323,6 +1328,14 @@
       <displayunitcount>1</displayunitcount>
     </card>
     <card>
+      <name>DEHCDanishBattleshipCard</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <displayunitcount>1</displayunitcount>
+      <age>3</age>
+    </card>
+    <card>
       <name>DEHCHakkapelitMarch</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1342,7 +1355,7 @@
       <maxcount>1</maxcount>
       <level>0</level>
       <prereqtech>-1</prereqtech>
-      <age>1</age>
+      <age>0</age>
     </card>
     <card>
       <name>HCGunboatWar</name>
@@ -1631,16 +1644,6 @@
       <displayunitcount>12</displayunitcount>
     </card>
     <card>
-      <name>DEHCREVCitizenship</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
-      <displayunitcount>6</displayunitcount>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
       <name>DEHCREVShipOutposts</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -1700,7 +1703,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVShipHakkapelits</name>
+      <name>DEHCREVShipSkiIinfantry</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1734,16 +1737,6 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
-      <revoltcard>
-      </revoltcard>
-    </card>
-    <card>
-      <name>DEHCREVFinnhorses</name>
-      <maxcount>1</maxcount>
-      <level>0</level>
-      <prereqtech>XPRevolution</prereqtech>
-      <age>2</age>
-      <bindtotech>DEHCFinnhorses</bindtotech>
       <revoltcard>
       </revoltcard>
     </card>
@@ -1837,7 +1830,7 @@
         <card dbid="6397">DEHCShipLeatherCannons1</card>
         <card dbid="6403">DEHCDominions</card>
         <card dbid="2571">HCFrontierDefenses</card>
-        <card dbid="6589">DEHCKalmarCastle</card>
+        <card dbid="6589">DEHCKronborgCastle</card>
         <card dbid="814">HCUnlockFort</card>
         <card dbid="625">HCUnlockFactory</card>
         <card dbid="3345">HCXPIndustrialRevolution</card>
@@ -1903,7 +1896,7 @@
         <card dbid="2323">HCNavalGunners</card>
         <card dbid="2225">HCNavalCombat</card>
         <card dbid="2221">HCShipGunboats2</card>
-        <card dbid="6399">DEHCVasa</card>
+        <card dbid="6399"></card>
         <card dbid="6516">DEHCEngelsbergIronworks</card>
         <card dbid="2606">HCSchooners</card>
         <card dbid="3389">HCXPWhaleOil</card>
@@ -1926,7 +1919,7 @@
         <card dbid="3345">HCXPIndustrialRevolution</card>
         <card dbid="2213">HCShipWoodCrates4</card>
         <card dbid="2216">HCShipCoinCrates4</card>
-        <card dbid="6589">DEHCKalmarCastle</card>
+        <card dbid="6589">DEHCKronborgCastle</card>
         <card dbid="2093">HCRoyalMint</card>
         <card dbid="2041">HCRefrigeration</card>
         <card dbid="2211">HCShipWoodCrates2</card>
@@ -2004,7 +1997,7 @@
         <card dbid="6386">DEHCHandUnitDamage</card>
         <card dbid="2573">HCShipWoodCrates1</card>
         <card dbid="6633">DEHCTrampleTactics</card>
-        <card dbid="6390">DEHCRangedCavalryCombat</card>
+        <card dbid="6390">HCDragoonCombatDanish</card>
       </cards>
     </deck>
     <revoltdeck>
@@ -2072,12 +2065,11 @@
         <card>DEHCDominions</card>
         <card>DEHCREVShipOutposts</card>
         <card>DEHCREVTurkuAcademy</card>
-        <card>DEHCREVShipHakkapelits</card>
+        <card>DEHCREVShipSkiIinfantry</card>
         <card>DEHCREVShipBalticFleet</card>
         <card>DEHCREVGunboats</card>
         <card>DEHCREVJaegerCombat</card>
         <card>DEHCREVCapitolNorway</card>
-        <card>DEHCREVCitizenship</card>
         <card>DEHCREVBirkebeiner</card>
         <card>DEHCREVShipFoodCrates</card>
         <card>DEHCREVShipCoinCrates</card>
@@ -2224,14 +2216,14 @@
       <tech x="0.0" y="5.0"></tech>
       <tech x="1.9" y="2.0">DEHCShipRytter2</tech>
       <tech x="3.2" y="1.0"></tech>
-      <tech x="3.2" y="1.0"></tech>
+      <tech x="3.2" y="1.0">DEHCGrapeshot2</tech>
       <tech x="1.6" y="5.0">HCShipEspingols1</tech>
       <tech x="3.2" y="1.0">HCShipEspingols2</tech>
       <tech x="3.2" y="1.0">HCShipEspingolRepeat</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
       <tech x="2.3" y="4.0">HCLongRangedInfHitpointsTeam</tech>
-      <tech x="2.3" y="4.0">DEHCRangedCavalryCombat</tech>
+      <tech x="2.3" y="4.0">HCDragoonCombatDanish</tech>
       <tech x="2.3" y="5.0">HCCavalryDamageBritish</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
       <tech x="3.2" y="3.0">HCShipHussars5</tech>
@@ -2239,7 +2231,7 @@
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
       <tech x="3.4" y="5.0">HCShipMusketeers4</tech>
       <tech x="3.9" y="7.0">HCShipMusketeers5</tech>
-      <tech x="4.6" y="3.0"></tech>
+      <tech x="4.6" y="3.0">HCCavalryCombatBritish</tech>
       <tech x="5.2" y="1.0">HCShipGrenadiers1</tech>
       <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
       <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
@@ -2272,14 +2264,14 @@
       <tech x="0.0" y="5.0"></tech>
       <tech x="1.9" y="2.0">DEHCShipRytter2</tech>
       <tech x="3.2" y="1.0"></tech>
-      <tech x="3.2" y="1.0"></tech>
+      <tech x="3.2" y="1.0">DEHCGrapeshot2</tech>
       <tech x="1.6" y="5.0">HCShipEspingols1</tech>
       <tech x="3.2" y="1.0">HCShipEspingols2</tech>
       <tech x="3.2" y="1.0">HCShipEspingolRepeat</tech>
       <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
       <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
       <tech x="2.3" y="4.0">HCLongRangedInfHitpointsTeam</tech>
-      <tech x="2.3" y="4.0">DEHCRangedCavalryCombat</tech>
+      <tech x="2.3" y="4.0">HCDragoonCombatDanish</tech>
       <tech x="2.3" y="5.0">HCCavalryDamageBritish</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
       <tech x="3.2" y="3.0">HCShipHussars5</tech>
@@ -2287,7 +2279,7 @@
       <tech x="3.9" y="4.0">HCXPShipHorseArtillery2</tech>
       <tech x="3.4" y="5.0">HCShipMusketeers4</tech>
       <tech x="3.9" y="7.0">HCShipMusketeers5</tech>
-      <tech x="4.6" y="3.0"></tech>
+      <tech x="4.6" y="3.0">HCCavalryCombatBritish</tech>
       <tech x="5.2" y="1.0">HCShipGrenadiers1</tech>
       <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
       <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
@@ -2339,11 +2331,12 @@
       <tech x="2.3" y="2.0">HCBattlefieldEngineering</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.0" y="2.0">HCColonialMilitia</tech>
+      <tech x="2.4" y="3.0">HCAdvancedArsenal</tech>
       <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
       <tech x="3.0" y="4.0">HCFrontierDefenses2</tech>
       <tech x="3.0" y="4.0">HCCopenhagen</tech>
       <tech x="3.7" y="1.0">HCUnlockFort</tech>
-      <tech x="3.7" y="1.0">DEHCKalmarCastle</tech>
+      <tech x="3.7" y="1.0">DEHCKronborgCastle</tech>
       <tech x="3.7" y="2.0">DEHCExtensiveFortificationsEuropean</tech>
       <tech x="3.7" y="5.0">HCHeavyFortifications</tech>
       <tech x="3.7" y="6.0">HCXPUnlockFort2</tech>
@@ -2371,11 +2364,12 @@
       <tech x="2.3" y="2.0">HCBattlefieldEngineering</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
       <tech x="3.0" y="2.0">HCColonialMilitia</tech>
+      <tech x="2.4" y="3.0">HCAdvancedArsenal</tech>
       <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
       <tech x="3.0" y="4.0">HCFrontierDefenses2</tech>
       <tech x="3.0" y="4.0">HCCopenhagen</tech>
       <tech x="3.7" y="1.0">HCUnlockFort</tech>
-      <tech x="3.7" y="1.0">DEHCKalmarCastle</tech>
+      <tech x="3.7" y="1.0">DEHCKronborgCastle</tech>
       <tech x="3.7" y="2.0">DEHCExtensiveFortificationsEuropean</tech>
       <tech x="3.7" y="5.0">HCHeavyFortifications</tech>
       <tech x="3.7" y="6.0">HCXPUnlockFort2</tech>
@@ -2490,7 +2484,6 @@
       <tech x="1.1" y="2.0">HCShipGalleons</tech>
       <tech x="0.8" y="3.0">DEHCMercsRoyalHorseman</tech>
       <tech x="0.8" y="5.0">DEHCShipBalticFleet</tech>
-      <tech x="0.8" y="7.0">DEHCVasa</tech>
       <tech x="1.5" y="3.0">HCShipFrigates</tech>
       <tech x="2.2" y="4.0">HCNavalCombat</tech>
       <tech x="1.5" y="4.0">HCShipMonitors</tech>
@@ -2513,6 +2506,7 @@
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
       <tech x="6.0" y="5.0">HCPrivateersTeam</tech>
       <tech x="6.0" y="7.0">HCPrivateersRepeat</tech>
+      <tech x="6.0" y="7.0">DEHCDanishBattleshipCard</tech>
       <tech x="6.0" y="7.0">DEHCShipBattleshipRepeat</tech>
       <tech x="4.6" y="7.0">DEHCJagiellonAllies1</tech>
       <tech x="4.6" y="7.0">DEHCVasaAllies1</tech>
@@ -2530,7 +2524,6 @@
       <tech x="1.1" y="2.0">HCShipGalleons</tech>
       <tech x="0.8" y="3.0">DEHCMercsRoyalHorseman</tech>
       <tech x="0.8" y="5.0">DEHCShipBalticFleet</tech>
-      <tech x="0.8" y="7.0">DEHCVasa</tech>
       <tech x="1.5" y="3.0">HCShipFrigates</tech>
       <tech x="2.2" y="4.0">HCNavalCombat</tech>
       <tech x="1.5" y="4.0">HCShipMonitors</tech>
@@ -2553,6 +2546,7 @@
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
       <tech x="6.0" y="5.0">HCPrivateersTeam</tech>
       <tech x="6.0" y="7.0">HCPrivateersRepeat</tech>
+      <tech x="6.0" y="7.0">DEHCDanishBattleshipCard</tech>
       <tech x="6.0" y="7.0">DEHCShipBattleshipRepeat</tech>
       <tech x="4.6" y="7.0">DEHCJagiellonAllies1</tech>
       <tech x="4.6" y="7.0">DEHCVasaAllies1</tech>

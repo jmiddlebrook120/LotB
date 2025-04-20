@@ -77,6 +77,16 @@
       </revoltcard>
     </card>
     <card mergeMode='add'>
+      <name>DEHCREVShipSkiIinfantry</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>15</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card mergeMode='add'>
       <name>DEHCREVShipCaribou</name>
       <maxcount>-1</maxcount>
       <level>0</level>
@@ -359,12 +369,11 @@
           <card>DEHCDominions</card>
           <card>DEHCREVShipOutposts</card>
           <card>DEHCREVTurkuAcademy</card>
-          <card>DEHCREVShipHakkapelits</card>
+          <card>DEHCREVShipSkiIinfantry</card>
           <card>DEHCREVShipBalticFleet</card>
           <card>DEHCREVGunboats</card>
           <card>DEHCREVJaegerCombat</card>
           <card>DEHCREVCapitolNorway</card>
-          <card>DEHCREVCitizenship</card>
           <card>DEHCREVBirkebeiner</card>
           <card>DEHCREVShipFoodCrates</card>
           <card>DEHCREVShipCoinCrates</card>

@@ -50,17 +50,19 @@
     <food>0</food>
     <wood>0</wood>
     <startingunit>Explorer</startingunit>
+    <townstartingunit>OxCart</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
     <townstartingunit>Settler</townstartingunit>
-    <townstartingunit>deCrateofFood50</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
+    <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofFood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
     <townstartingunit>CrateofWood</townstartingunit>
-    <townstartingunit>CrateofWood</townstartingunit>
+    <empirewarsstartingunit>OxCart</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>
     <empirewarsstartingunit>Settler</empirewarsstartingunit>

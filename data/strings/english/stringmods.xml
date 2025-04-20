@@ -105,10 +105,10 @@
     <string _locid="500089">Landsoldat</string>    
     <string _locid="500090">Imperial Landsoldater</string>
     <string _locid="500091">Imperial Landsoldat</string>
-    <string _locid="500092">Danish Musketeer attack and hitpoints greatly increased.</string>
+    <string _locid="500092">Danish Musketeer attack and hitpoints greatly increased. Cost is reduced.</string>
     <string _locid="500093">Zealand Life Hussars</string>
     <string _locid="500094">Zealand Life Hussar</string>    
-    <string _locid="500095">Danish Hussar attack and hitpoints greatly increased.</string>
+    <string _locid="500095">Danish Hussar attack, hitpoints and range resist greatly increased.</string>
     <string _locid="500096">Battlefield Engineering</string>
     <string _locid="500097">Your Ox Carts can now build military buildings as well.</string>   
     <string _locid="500098">Øresund Tolls</string>
@@ -168,8 +168,7 @@
     <string _locid="500151">Royal Life Guard</string>
     <string _locid="500152">Grants a Royal Grenadier with all future shipments and enables them to be recruited at Oldenburg Trading Posts.</string>
     <string _locid="500153">Opportunist</string>
-    <!-- <string _locid="500154">Improves your Swedish Explorer in combat and gives him a canine companion. Trade Routes yield more resources.</string> -->
-    <string _locid="500154">Improves your Danish Explorer in combat, increases his line of sight and gives him a canine companion.</string>
+    <string _locid="500154">Improves your Danish Explorer in combat, and gives him a canine companion. Trade Routes yield more resources.</string>
     <string _locid="500155">Knogsberg Mines</string>
     <string _locid="500156">Grants two Silver Prospector Wagons.</string>
     <string _locid="91774">Scandinavian Forests</string>
@@ -197,7 +196,17 @@
     <string _locid="500177">Ships 2 Crates of Julesild, which provide more Food over time. You can have up to 10 Crates of Julesild in play at any time.</string>
     <string _locid="500178">Sjømenn</string>
     <string _locid="500179">Grants 8 Ski Infantry. Your Settlers become Sjømenn, and can be called from docks and garrisoned into warships to improve attack.</string>
-	
+    <string _locid="500180">Jutland Dragoons</string>
+    <string _locid="500181">Allows your Town Center to Train Ox Carts. Increases Ox cart build limit by 1.</string>
+    <string _locid="500182">8 Ski Infantry</string>
+    <string _locid="500183">Royal Danish Navy</string>
+    <string _locid="500184">Ships a mighty Battleship! Danish Battleships have increase in range and grants them the Long-range bombardment ability.</string>
+    <string _locid="500185">Kronborg Castle</string>
+    <string _locid="500186">Duke of Holstein</string>
+    <string _locid="500187">Ships 10 Veteran Doppelsoldners.</string>
+    <string _locid="500188">Treaty of Koldinghus</string>
+    <string _locid="500189">Provides your Church with unique Danish improvements.</string>
+
 </Language>
 </StringTable>
 </stringmods>

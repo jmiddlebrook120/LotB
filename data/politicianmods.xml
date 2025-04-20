@@ -5,4 +5,6 @@
   </politicianmarksmanDanish>
   <depoliticiancavalierDanish portraitfilename="ui\ingame\politicians\politician_cavalier" portraitfilenamewpf="resources/images/icons/politicians/politician_cavalier.png">
   </depoliticiancavalierDanish>
+  <depoliticianlogisticiandanish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
+  </depoliticianlogisticiandanish>
 </politicianmods>  
