@@ -1,0 +1,32 @@
+<protounitsounddefmods>
+  <protounit name="Frigate">
+    <soundtype name="Select">
+      <civlogic>
+        <choice mergeMode="add" name="LBDanish">
+          <soundset name="DanishFalconetSelect">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Death">
+      <soundset name="ShipDeath">
+      </soundset>
+    </soundtype>
+    <soundtype name="Creation">
+      <soundset name="ShipBirth">
+      </soundset>
+    </soundtype>
+    <soundtype name="Acknowledge">
+      <civlogic>
+        <choice mergeMode="add" name="LBDanish">
+          <soundset name="DanishFrigateAcknowledge">
+          </soundset>
+        </choice>
+      </civlogic>
+    </soundtype>
+    <soundtype name="Exists">
+      <soundset name="AmbienceShip">
+      </soundset>
+    </soundtype>
+  </protounit>
+</protounitsounddefmods>
