@@ -11,4 +11,8 @@
   <demercbattleship mergeMode="add">
     <ability>PowerLongRange<rof>90</rof><tech>HCRoyalDanishNavy</tech><sharedcooldown>true</sharedcooldown></ability>
   </demercbattleship>
+  <!-- <Friskytte>
+    <ability>deREVBigStealthChinaco<tech>HCSnapphane</tech><rof>90</rof><usebigabilitybutton>true</usebigabilitybutton><donotforcestop>true</donotforcestop><castonself>true</castonself><activetimecooldown>true</activetimecooldown><allowwhilestealthed>true</allowwhilestealthed><forceshowrollover>true</forceshowrollover></ability>
+  </Friskytte>
+   -->
 </abilitymods>

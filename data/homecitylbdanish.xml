@@ -8,7 +8,7 @@
   <backgroundvisual>swedish\swedish_background.xml</backgroundvisual>
   <pathdata>swedish\pathable_area.gr2</pathdata>
   <camera>swedish\swedish_homecity_camera.cam</camera>
-  <widescreencamera>swedish\swedish_homecity_widescreencamera.cam</widescreencamera>
+  <widescreencamera>american\american_homecity_widescreencamera.cam</widescreencamera>
   <transportroundtriptime>1</transportroundtriptime>
   <transportactivationtime>0</transportactivationtime>
   <level>1</level>
@@ -285,6 +285,13 @@
       <age>3</age>
     </card>
     <card>
+      <name>HCArmedNeutralityTeam</name>
+      <maxcount>1</maxcount>
+      <level>25</level>
+      <prereqtech>HCShipCoinCrates3</prereqtech>
+      <age>0</age>
+    </card>
+    <card>
       <name>HCShipPikemen1</name>
       <maxcount>1</maxcount>
       <level>0</level>
@@ -348,6 +355,28 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
+      <name>HCSnapphane</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+    </card>
+    <card>
+      <name>DEHCObserversDanish</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+    </card>
+    <card>
+      <name>DEHCKongensRegiment</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>3</age>
+      <displayunitcount>10</displayunitcount>
+    </card>
+    <card>
       <name>HCShipPikemen5</name>
       <maxcount>1</maxcount>
       <level>10</level>
@@ -375,17 +404,10 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCHandUnitDamage</name>
+      <name>HCLongrangeInfantryDamageDanish</name>
       <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>DEHCShipRytter2</prereqtech>
-      <age>1</age>
-    </card>
-    <card>
-      <name>DEHCHandUnitHitpoints</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>DEHCHandUnitDamage</prereqtech>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
       <age>1</age>
     </card>
     <card>
@@ -394,6 +416,13 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
+    </card>
+    <card>
+      <name>HCInfantryCombatDanish</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>HCLongRangedInfHitpointsTeam</prereqtech>
+      <age>2</age>
     </card>
     <card>
       <name>DEHCGrapeshot2</name>
@@ -649,7 +678,7 @@
       <displayunitcount>3</displayunitcount>
     </card>
     <card>
-      <name>HCCopenhagen</name>
+      <name>HCDanevirke</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
@@ -810,6 +839,14 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
+    </card>
+    <card>
+      <name>HCJutlandHerds</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>-1</prereqtech>
+      <age>2</age>
+      <displayunitcount>10</displayunitcount>
     </card>
     <card>
       <name>DEHCShipCaribou</name>
@@ -1117,50 +1154,34 @@
       <age>0</age>
     </card>
     <card>
-      <name>DEHCContractMercsIrishBrigadiers</name>
-      <maxcount>1</maxcount>
-      <level>40</level>
-      <prereqtech>DEHCContractMercsGiantGrenadiers</prereqtech>
-      <age>1</age>
-      <displayunitcount>9</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCContractMercsSwissPikemen</name>
+      <name>HCMercsLandsknecht2</name>
       <maxcount>1</maxcount>
       <level>10</level>
       <prereqtech>-1</prereqtech>
-      <age>2</age>
-      <displayunitcount>12</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCContractMercsLandsknechts</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>-1</prereqtech>
-      <age>1</age>
-      <displayunitcount>3</displayunitcount>
-    </card>
-    <card>
-      <name>DEHCContractMercsGiantGrenadiers</name>
-      <maxcount>1</maxcount>
-      <level>10</level>
-      <prereqtech>DEHCContractMercsLandsknechts</prereqtech>
       <age>2</age>
       <displayunitcount>8</displayunitcount>
     </card>
     <card>
-      <name>DEHCContractMercsBlackRiders</name>
+      <name>DEHCMercsGiantGrenadiers</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>DEHCContractMercsLandsknechts</prereqtech>
+      <prereqtech>HCMercsLandsknecht2</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+    </card>
+    <card>
+      <name>HCMercsBlackRiders</name>
+      <maxcount>1</maxcount>
+      <level>10</level>
+      <prereqtech>DEHCMercsGiantGrenadiers</prereqtech>
       <age>2</age>
       <displayunitcount>7</displayunitcount>
     </card>
     <card>
-      <name>DEHCContractMercsHessians</name>
+      <name>HCMercsHessians</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>DEHCContractMercsSwissPikemen</prereqtech>
+      <prereqtech>DEHCContractMercsBlackRiders</prereqtech>
       <age>2</age>
       <displayunitcount>10</displayunitcount>
     </card>
@@ -1168,7 +1189,7 @@
       <name>DEHCContractMercsBosniaks</name>
       <maxcount>1</maxcount>
       <level>10</level>
-      <prereqtech>DEHCContractMercsSwissPikemen</prereqtech>
+      <prereqtech>HCMercsHessians</prereqtech>
       <age>2</age>
       <displayunitcount>6</displayunitcount>
     </card>
@@ -1231,21 +1252,21 @@
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCJagiellonAllies1</name>
+      <name>DEHCMercsChakram1</name>
       <maxcount>1</maxcount>
       <level>40</level>
       <prereqtech>-1</prereqtech>
       <age>1</age>
-      <displayunitcount>5</displayunitcount>
+      <displayunitcount>7</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
-      <name>DEHCWittelsbachAllies2</name>
+      <name>DEHCAkanAllies2</name>
       <maxcount>1</maxcount>
       <level>1</level>
       <prereqtech>-1</prereqtech>
       <age>2</age>
-      <displayunitcount>7</displayunitcount>
+      <displayunitcount>14</displayunitcount>
       <infiniteinlastage>1</infiniteinlastage>
     </card>
     <card>
@@ -1303,14 +1324,6 @@
       <level>0</level>
       <prereqtech>-1</prereqtech>
       <age>0</age>
-    </card>
-    <card>
-      <name>DEHCShipFishCrateDM</name>
-      <maxcount>-1</maxcount>
-      <level>0</level>
-      <prereqtech>-1</prereqtech>
-      <age>0</age>
-      <displayunitcount>2</displayunitcount>
     </card>
     <card>
       <name>DEHCHandMortar</name>
@@ -2149,7 +2162,7 @@
       <tech x="7.0" y="1.0">HCExplorerDanish</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
-      <tech x="7.0" y="5.0">DEHCShipFishCrateDM</tech>
+      <tech x="7.0" y="5.0">HCArmedNeutralityTeam</tech>
     </obtainabletechs>
     <activetechs>
       <tech x="0.5" y="2.0">DEHCShipOxCartRepeat</tech>
@@ -2181,7 +2194,7 @@
       <tech x="7.0" y="1.0">HCExplorerDanish</tech>
       <tech x="7.0" y="5.0">HCXPAdvancedBalloon</tech>
       <tech x="7.0" y="5.0">HCShipBalloons</tech>
-      <tech x="7.0" y="5.0">DEHCShipFishCrateDM</tech>
+      <tech x="7.0" y="5.0">HCArmedNeutralityTeam</tech>
     </activetechs>
     <validunits>
     </validunits>
@@ -2213,16 +2226,16 @@
       <tech x="0.0" y="4.0">HCXPShipMusketeersRepeat</tech>
       <tech x="0.7" y="4.0">HCShipPikemen5</tech>
       <tech x="0.7" y="5.0">DEHCShipRytter3</tech>
-      <tech x="0.0" y="5.0"></tech>
+      <tech x="0.0" y="5.0">DEHCKongensRegiment</tech>
       <tech x="1.9" y="2.0">DEHCShipRytter2</tech>
-      <tech x="3.2" y="1.0"></tech>
+      <tech x="3.2" y="1.0">HCSnapphane</tech>
       <tech x="3.2" y="1.0">DEHCGrapeshot2</tech>
       <tech x="1.6" y="5.0">HCShipEspingols1</tech>
       <tech x="3.2" y="1.0">HCShipEspingols2</tech>
       <tech x="3.2" y="1.0">HCShipEspingolRepeat</tech>
-      <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
-      <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
-      <tech x="2.3" y="4.0">HCLongRangedInfHitpointsTeam</tech>
+      <tech x="2.3" y="3.0">HCLongRangedInfHitpointsTeam</tech>
+      <tech x="2.3" y="4.0">HCInfantryCombatDanish</tech>
+      <tech x="2.3" y="4.0">DEHCObserversDanish</tech>
       <tech x="2.3" y="4.0">HCDragoonCombatDanish</tech>
       <tech x="2.3" y="5.0">HCCavalryDamageBritish</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
@@ -2235,7 +2248,7 @@
       <tech x="5.2" y="1.0">HCShipGrenadiers1</tech>
       <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
       <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
-      <tech x="5.9" y="1.0"></tech>
+      <tech x="5.9" y="1.0">HCLongrangeInfantryDamageDanish</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins2</tech>
@@ -2261,16 +2274,16 @@
       <tech x="0.0" y="4.0">HCXPShipMusketeersRepeat</tech>
       <tech x="0.7" y="4.0">HCShipPikemen5</tech>
       <tech x="0.7" y="5.0">DEHCShipRytter3</tech>
-      <tech x="0.0" y="5.0"></tech>
+      <tech x="0.0" y="5.0">DEHCKongensRegiment</tech>
       <tech x="1.9" y="2.0">DEHCShipRytter2</tech>
-      <tech x="3.2" y="1.0"></tech>
+      <tech x="3.2" y="1.0">HCSnapphane</tech>
       <tech x="3.2" y="1.0">DEHCGrapeshot2</tech>
       <tech x="1.6" y="5.0">HCShipEspingols1</tech>
       <tech x="3.2" y="1.0">HCShipEspingols2</tech>
       <tech x="3.2" y="1.0">HCShipEspingolRepeat</tech>
-      <tech x="2.3" y="3.0">DEHCHandUnitDamage</tech>
-      <tech x="2.3" y="4.0">DEHCHandUnitHitpoints</tech>
-      <tech x="2.3" y="4.0">HCLongRangedInfHitpointsTeam</tech>
+      <tech x="2.3" y="3.0">HCLongRangedInfHitpointsTeam</tech>
+      <tech x="2.3" y="4.0">HCInfantryCombatDanish</tech>
+      <tech x="2.3" y="4.0">DEHCObserversDanish</tech>
       <tech x="2.3" y="4.0">HCDragoonCombatDanish</tech>
       <tech x="2.3" y="5.0">HCCavalryDamageBritish</tech>
       <tech x="3.2" y="2.0">HCShipHussars4</tech>
@@ -2283,7 +2296,7 @@
       <tech x="5.2" y="1.0">HCShipGrenadiers1</tech>
       <tech x="5.2" y="1.0">HCShipGrenadiers3</tech>
       <tech x="5.2" y="2.0">HCShipGrenadiers4</tech>
-      <tech x="5.9" y="1.0"></tech>
+      <tech x="5.9" y="1.0">HCLongrangeInfantryDamageDanish</tech>
       <tech x="5.9" y="2.0">HCShipFalconets3</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins1</tech>
       <tech x="5.9" y="3.0">DEHCShipFalconetsCulverins2</tech>
@@ -2327,6 +2340,7 @@
       <tech x="0.8" y="3.0">HCFencingSchool</tech>
       <tech x="1.5" y="3.0">HCRidingSchool</tech>
       <tech x="1.6" y="1.0">HCXPRanching</tech>
+      <tech x="1.6" y="1.0">HCJutlandHerds</tech>
       <tech x="2.3" y="2.0">HCPioneers</tech>
       <tech x="2.3" y="2.0">HCBattlefieldEngineering</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
@@ -2334,7 +2348,7 @@
       <tech x="2.4" y="3.0">HCAdvancedArsenal</tech>
       <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
       <tech x="3.0" y="4.0">HCFrontierDefenses2</tech>
-      <tech x="3.0" y="4.0">HCCopenhagen</tech>
+      <tech x="3.0" y="4.0">HCDanevirke</tech>
       <tech x="3.7" y="1.0">HCUnlockFort</tech>
       <tech x="3.7" y="1.0">DEHCKronborgCastle</tech>
       <tech x="3.7" y="2.0">DEHCExtensiveFortificationsEuropean</tech>
@@ -2360,6 +2374,7 @@
       <tech x="0.8" y="3.0">HCFencingSchool</tech>
       <tech x="1.5" y="3.0">HCRidingSchool</tech>
       <tech x="1.6" y="1.0">HCXPRanching</tech>
+      <tech x="1.6" y="1.0">HCJutlandHerds</tech>
       <tech x="2.3" y="2.0">HCPioneers</tech>
       <tech x="2.3" y="2.0">HCBattlefieldEngineering</tech>
       <tech x="2.3" y="3.0">HCImprovedBuildings</tech>
@@ -2367,7 +2382,7 @@
       <tech x="2.4" y="3.0">HCAdvancedArsenal</tech>
       <tech x="2.6" y="1.0">HCFrontierDefenses</tech>
       <tech x="3.0" y="4.0">HCFrontierDefenses2</tech>
-      <tech x="3.0" y="4.0">HCCopenhagen</tech>
+      <tech x="3.0" y="4.0">HCDanevirke</tech>
       <tech x="3.7" y="1.0">HCUnlockFort</tech>
       <tech x="3.7" y="1.0">DEHCKronborgCastle</tech>
       <tech x="3.7" y="2.0">DEHCExtensiveFortificationsEuropean</tech>
@@ -2491,16 +2506,15 @@
       <tech x="2.6" y="1.0">HCAdmirality</tech>
       <tech x="2.6" y="1.0">HCNavalGunners</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
-      <tech x="3.9" y="3.0">DEHCContractMercsLandsknechts</tech>
-      <tech x="3.2" y="4.0">DEHCContractMercsGiantGrenadiers</tech>
-      <tech x="3.2" y="7.0">DEHCContractMercsIrishBrigadiers</tech>
-      <tech x="4.6" y="3.0">DEHCContractMercsSwissPikemen</tech>
-      <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
-      <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
+      <tech x="3.9" y="3.0">HCMercsLandsknecht2</tech>
+      <tech x="3.2" y="4.0">DEHCMercsGiantGrenadiers</tech>
+      <tech x="3.2" y="7.0"></tech>
+      <tech x="4.6" y="3.0"></tech>
+      <tech x="3.9" y="4.0">HCMercsBlackRiders</tech>
+      <tech x="4.6" y="4.0">HCMercsHessians</tech>
       <tech x="3.9" y="5.0">DEHCContractMercsBosniaks</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
-      <tech x="5.3" y="6.0">HCMercsHessians2</tech>
       <tech x="4.2" y="1.0">DEHCTheaters</tech>
       <tech x="6.0" y="1.0">HCPrivateers</tech>
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
@@ -2508,11 +2522,11 @@
       <tech x="6.0" y="7.0">HCPrivateersRepeat</tech>
       <tech x="6.0" y="7.0">DEHCDanishBattleshipCard</tech>
       <tech x="6.0" y="7.0">DEHCShipBattleshipRepeat</tech>
-      <tech x="4.6" y="7.0">DEHCJagiellonAllies1</tech>
+      <tech x="4.6" y="7.0">DEHCMercsChakram1</tech>
       <tech x="4.6" y="7.0">DEHCVasaAllies1</tech>
       <tech x="4.6" y="7.0">DEHCCaribAllies</tech>
-      <tech x="4.6" y="7.0">DEHCWittelsbachAlliesRepeat</tech>
-      <tech x="4.6" y="7.0">DEHCWittelsbachAllies2</tech>
+      <tech x="4.6" y="7.0"></tech>
+      <tech x="4.6" y="7.0">DEHCAkanAllies2</tech>
       <tech x="1.3" y="5.0">DEHCOldenburgAllies1</tech>
       <tech x="1.3" y="5.0">HCOldenburg</tech>
       <tech x="1.3" y="5.0">HCGunboatWar</tech>
@@ -2531,16 +2545,15 @@
       <tech x="2.6" y="1.0">HCAdmirality</tech>
       <tech x="2.6" y="1.0">HCNavalGunners</tech>
       <tech x="2.6" y="1.0">HCCoastalDefensesTeam</tech>
-      <tech x="3.9" y="3.0">DEHCContractMercsLandsknechts</tech>
-      <tech x="3.2" y="4.0">DEHCContractMercsGiantGrenadiers</tech>
-      <tech x="3.2" y="7.0">DEHCContractMercsIrishBrigadiers</tech>
-      <tech x="4.6" y="3.0">DEHCContractMercsSwissPikemen</tech>
-      <tech x="3.9" y="4.0">DEHCContractMercsBlackRiders</tech>
-      <tech x="4.6" y="4.0">DEHCContractMercsHessians</tech>
+      <tech x="3.9" y="3.0">HCMercsLandsknecht2</tech>
+      <tech x="3.2" y="4.0">DEHCMercsGiantGrenadiers</tech>
+      <tech x="3.2" y="7.0"></tech>
+      <tech x="4.6" y="3.0"></tech>
+      <tech x="3.9" y="4.0">HCMercsBlackRiders</tech>
+      <tech x="4.6" y="4.0">HCMercsHessians</tech>
       <tech x="3.9" y="5.0">DEHCContractMercsBosniaks</tech>
       <tech x="4.6" y="5.0">HCMercsHighland</tech>
       <tech x="5.3" y="5.0">HCMercenaryLoyalty</tech>
-      <tech x="5.3" y="6.0">HCMercsHessians2</tech>
       <tech x="4.2" y="1.0">DEHCTheaters</tech>
       <tech x="6.0" y="1.0">HCPrivateers</tech>
       <tech x="6.0" y="3.0">HCPrivateers2</tech>
@@ -2548,11 +2561,11 @@
       <tech x="6.0" y="7.0">HCPrivateersRepeat</tech>
       <tech x="6.0" y="7.0">DEHCDanishBattleshipCard</tech>
       <tech x="6.0" y="7.0">DEHCShipBattleshipRepeat</tech>
-      <tech x="4.6" y="7.0">DEHCJagiellonAllies1</tech>
+      <tech x="4.6" y="7.0">DEHCMercsChakram1</tech>
       <tech x="4.6" y="7.0">DEHCVasaAllies1</tech>
       <tech x="4.6" y="7.0">DEHCCaribAllies</tech>
-      <tech x="4.6" y="7.0">DEHCWittelsbachAlliesRepeat</tech>
-      <tech x="1.3" y="5.0">DEHCWittelsbachAllies2</tech>
+      <tech x="4.6" y="7.0"></tech>
+      <tech x="1.3" y="5.0">DEHCAkanAllies2</tech>
       <tech x="1.3" y="5.0">DEHCOldenburgAllies1</tech>
       <tech x="1.3" y="5.0">HCOldenburg</tech>
       <tech x="1.3" y="5.0">HCGunboatWar</tech>

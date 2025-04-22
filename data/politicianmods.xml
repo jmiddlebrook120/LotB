@@ -7,4 +7,8 @@
   </depoliticiancavalierDanish>
   <depoliticianlogisticiandanish portraitfilename="ui\ingame\politicians\politician_engineer" portraitfilenamewpf="resources/images/icons/politicians/politician_logistician.png">
   </depoliticianlogisticiandanish>
+  <DEPoliticianMercContractorFortressDanish portraitfilename="ui\ingame\politicians\politician_gentlemen_pirate" portraitfilenamewpf="resources/images/icons/politicians/politician_mercenary_contractor.png">
+  </DEPoliticianMercContractorFortressDanish>
+  <DEPoliticianPapalGuardDanish portraitfilename="ui\ingame\politicians\politician_adventurer" portraitfilenamewpf="resources/images/icons/politicians/politician_papal_guard.png">
+  </DEPoliticianPapalGuardDanish>
 </politicianmods>  

@@ -2,8 +2,9 @@
 <StringTable>
 <Language name="english">
 
+    <string _locid="124507">Jaeger Corps of Zealand</string>
 	<string _locid="500000" symbol="cStringCivNameDanish">Danes</string>
-    <string _locid="500001" symbol="cStringCivRolloverDanish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather nearby resources. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;\nPikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+    <string _locid="500001" symbol="cStringCivRolloverDanish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nStarts off with an Ox cart, a homestead wagon that provides a gathering buff, and gain one when you age up. Mercenary units are more expensive but are stronger.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;\nMusketeer (Landsoldat) and Hussar (Zealand Life)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nOx Cart, Ski Infantry, Friskytte and Rytter\n\nThe Kingdom of Denmark asserted itself as a significant power in Northern Europe through its strategic use of naval supremacy and disciplined military forces. Its artillery and fortified defenses played a pivotal role in battles, particularly during conflicts like the Thirty Years' War. Despite challenges posed by a relatively small population, Denmark maintained its strength by leveraging alliances and employing skilled mercenaries to bolster its armies. This adaptability allowed Denmark to remain influential across the region for centuries</string>
     <string _locid="500002">Copenhagen</string>
     <string _locid="500003" symbol="cStringCivNamePolish">The Commonwealth</string>
     <string _locid="500004" symbol="cStringCivRolloverPolish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather nearby resources. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;\nPikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
@@ -11,7 +12,7 @@
     <string _locid="500006">Norway</string>
     <string _locid="500007">Christiania</string>
 	<string _locid="500008">Christian IV</string>
-    <string _locid="500009">Christian IV</string>
+    <string _locid="500009">Christian IV is an ambitious and resourceful leader, known for his relentless pursuit of military and economic dominance. He invests heavily in fortifications and artillery to secure strategic advantage on the battlefield. Christian IV prefers methodical campaigns, leveraging his navy and disciplined infantry to control territories and outmaneuver opponents.</string>
     <string _locid="500010">Jan III Sobieski</string>
     <string _locid="500011">Jan III Sobieski</string>
     <!-- PFirst -->
@@ -152,7 +153,7 @@
     <string _locid="500135">Contract Bosniak</string>
     <string _locid="500136">Delivers 6 Bosniaks. Enables Bosniak hiring at the Tavern.</string>
     <string _locid="500137">15 Caribou</string>
-    <string _locid="500138">Julesild</string>
+    <string _locid="500138"></string>
     <string _locid="500139">4 Rytterne</string>  
     <string _locid="500140">5 Rytterne</string>  
     <string _locid="500141">8 Rytterne</string>
@@ -176,8 +177,8 @@
     <string _locid="500157">Great Northern Forests</string>
     <string _locid="500158">Trees last significantly longer and Settlers gather wood from trees quicker.</string>
     <string _locid="500159">Gunboat War</string>
-    <string _locid="500160">Your gunboats are cheaper and more can be built.</string>
-    <string _locid="500161">Copenhagen</string>
+    <string _locid="500160">More Kanonjoller can be built and they now have abonus versus ships.</string>
+    <string _locid="500161">Danevirke</string>
     <string _locid="500162">Sends two Ox Carts. Ox Carts can now build Outposts and the build limit for Outposts have increased.</string>
     <string _locid="500163">4 Kanonjoller</string>  
     <string _locid="500164">4 Silver Prospector Wagons</string>
@@ -193,7 +194,7 @@
     <string _locid="500174">Sandsvær Silver Mines</string>
     <string _locid="500175">Villagers gather Coin from Mines faster. Torps gather coin +100% more quickly from mines. Mines last longer.</string>
     <string _locid="500176">Eidsvoll Constitution</string>
-    <string _locid="500177">Ships 2 Crates of Julesild, which provide more Food over time. You can have up to 10 Crates of Julesild in play at any time.</string>
+    <string _locid="500177"></string>
     <string _locid="500178">Sjømenn</string>
     <string _locid="500179">Grants 8 Ski Infantry. Your Settlers become Sjømenn, and can be called from docks and garrisoned into warships to improve attack.</string>
     <string _locid="500180">Jutland Dragoons</string>
@@ -206,6 +207,26 @@
     <string _locid="500187">Ships 10 Veteran Doppelsoldners.</string>
     <string _locid="500188">Treaty of Koldinghus</string>
     <string _locid="500189">Provides your Church with unique Danish improvements.</string>
+    <string _locid="500190">League of Armed Neutrality</string>
+    <string _locid="500191">Jutland Herds</string>
+    <string _locid="500192">Delivers 10 Cows carrying additional 150 food; Cow train limit +10.</string>
+    <string _locid="500193">Kongens Regiment</string>
+    <string _locid="500194">Ships 10 Musketeers and Musketeers gain additional Hitpoints when around allied buildings.</string>
+    <string _locid="500195">Snapphane</string>
+    <string _locid="500196">Friskytte now gain the stealth ability.</string>
+    <string _locid="500197">Grand Ambitions</string>
+    <string _locid="500198">Being over aggressive allows your artillery to deal more damage but it will be hard to reaquire more if they are lost. Artillery damage and area of effect is increased but so is their cost and train time.</string>
+    <string _locid="500199">Christian's Spearwall.</string>
+    <string _locid="500200">Ships an army of pikemen and increases their melee armor and their bonus verus cavalry.</string>
+    <string _locid="500201">Hire 7 Chakrams</string>
+    <string _locid="500202">Ships a number of Chakram Mercenaries that do area damage against infantry and buildings.</string>
+    <string _locid="500203">14 Akan Allies</string>
+    <string _locid="500204">Enables Hand Cannoneer and Hackapell hiring at the Tavern</string>
+    <string _locid="500205">Guard upgrade for Pikemen can be researched for free. Imperial Pikemen has a reduced price.</string>
+    <string _locid="500206">Pikeman, Musketeer, Ski Infantry and Grenadier attack and health increased.</string>
+    <string _locid="500207">Light Infantry attack increased.</string>
+    <string _locid="500208">Long Ranged Infantry Attack</string>
+    <string _locid="500209">Ski Infantry and Friskytte gain increased stats around resources and gain bonus against similar units.</string>
 
 </Language>
 </StringTable>

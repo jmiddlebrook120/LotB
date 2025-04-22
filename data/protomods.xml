@@ -8,11 +8,13 @@
       <tech mergeMode="add" row="0" page="1" column="1">PoliticianMarksmanDanish</tech>
       <tech mergeMode="add" row="0" page="1" column="1">DEPoliticianCavalierDanish</tech>
       <tech mergeMode="add" row="0" page="1" column="1">DEPoliticianLogisticianDanish</tech>
+      <tech mergeMode="add" row="0" page="1" column="1">DEPoliticianMercContractorFortressDanish</tech>
+      <tech mergeMode="add" row="0" page="1" column="1">DEPoliticianPapalGuardDanish</tech>
   </unit>
   <unit name="Church">
-    <tech mergeMode="add" row="0" page="1" column="8">DEImmigrantsGermanDanish</tech>
-    <tech mergeMode="add" row="0" page="1" column="9">DEImmigrantsGermanDanish</tech>
-    <tech mergeMode="add" row="0" page="1" column="10">HCDukeHolstein</tech>
+    <tech mergeMode="add" row="0" page="1" column="8">ChurchGrandAmbitions</tech>
+    <tech mergeMode="add" row="0" page="1" column="9">ChurchImmGermanDanish</tech>
+    <tech mergeMode="add" row="0" page="1" column="10">ChurchPikewall</tech>
   </unit>
   <unit name="FortFrontier">
     <train mergeMode="add" row="0" page="0" column="6">Friskytte</train>
@@ -705,6 +707,7 @@
     <command page="10" column="7">Delete</command>
     <command page="10" column="1">Stop</command>
     <command page="10" column="0">Garrison</command>
+    <command page="11" column="0">Abilities</command>
     <tactics>friskytte.tactics</tactics>
     <protoaction>
       <name>BuildingAttack</name>
@@ -991,7 +994,7 @@
     <maxrunvelocity>9.0000</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <animfile>units\mercenaries\black_rider\black_rider_horse.xml</animfile>
+    <animfile>units\natives\europeans\royal_dragoon\royal_dragoon_horse.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>cav</physicsinfo>
     <icon>resources\art\units\mercenaries\black_rider\black_rider_icon.png</icon>
