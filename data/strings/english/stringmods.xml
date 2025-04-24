@@ -126,9 +126,9 @@
     <string _locid="500108">Imperial Zealand Hussars</string>
     <string _locid="500109">Imperial Zealand Hussar</string>    
     <string _locid="500110">Espingol</string>
-    <string _locid="500111">Heavy Espingols</string>  
+    <string _locid="500111">8 Crabats</string>  
     <string _locid="500112">Heavy Espingol</string>  
-    <string _locid="500113">Imperial Espingols</string>  
+    <string _locid="500113"></string>  
     <string _locid="500114">Imperial Espingol</string>  
     <string _locid="500115">GunBoat</string>
     <string _locid="500116">3 Espingols</string>  
@@ -169,7 +169,7 @@
     <string _locid="500151">Royal Life Guard</string>
     <string _locid="500152">Grants a Royal Grenadier with all future shipments and enables them to be recruited at Oldenburg Trading Posts.</string>
     <string _locid="500153">Opportunist</string>
-    <string _locid="500154">Improves your Danish Explorer in combat, and gives him a canine companion. Trade Routes yield more resources.</string>
+    <string _locid="500154">Improves your Danish Explorer in combat, increases his line of sight and gives him a canine companion.</string>
     <string _locid="500155">Knogsberg Mines</string>
     <string _locid="500156">Grants two Silver Prospector Wagons.</string>
     <string _locid="91774">Scandinavian Forests</string>
@@ -198,7 +198,7 @@
     <string _locid="500178">Sjømenn</string>
     <string _locid="500179">Grants 8 Ski Infantry. Your Settlers become Sjømenn, and can be called from docks and garrisoned into warships to improve attack.</string>
     <string _locid="500180">Jutland Dragoons</string>
-    <string _locid="500181">Allows your Town Center to Train Ox Carts. Increases Ox cart build limit by 1.</string>
+    <string _locid="500181">Allows your Town Center to Train Ox Carts.</string>
     <string _locid="500182">8 Ski Infantry</string>
     <string _locid="500183">Royal Danish Navy</string>
     <string _locid="500184">Ships a mighty Battleship! Danish Battleships have increase in range and grants them the Long-range bombardment ability.</string>

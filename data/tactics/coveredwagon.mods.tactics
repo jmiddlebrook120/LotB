@@ -8,6 +8,7 @@
 		<maxrange>12</maxrange>
 		<modifyabstracttype>AbstractVillager</modifyabstracttype>
 		<persistent>1</persistent>
+		<nostack>1</nostack>
 		<modifytype>GatherRate</modifytype>
 		<modifymultiplier>1.1</modifymultiplier>
 		<modelattachment>effects\ypack_auras\econpower.xml</modelattachment>

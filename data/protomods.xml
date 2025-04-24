@@ -994,7 +994,7 @@
     <maxrunvelocity>9.0000</maxrunvelocity>
     <movementtype>land</movementtype>
     <turnrate>18.0000</turnrate>
-    <animfile>units\natives\europeans\royal_dragoon\royal_dragoon_horse.xml</animfile>
+    <animfile>units\cavalry\rytter\rytter_horse.xml</animfile>
     <impacttype>Flesh</impacttype>
     <physicsinfo>cav</physicsinfo>
     <icon>resources\art\units\mercenaries\black_rider\black_rider_icon.png</icon>

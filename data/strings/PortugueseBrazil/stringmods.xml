@@ -1,0 +1,234 @@
+<stringmods>
+<Stringtable>
+<Language name="PortugueseBrazil">
+        
+        <string _locid="124507">Corpo Jaeger da Zelândia</string>
+        <string _locid="500000" symbol="cStringCivNameDanish">Hoje</string>
+        <string _locid="500001" symbol="cStringCivRolloverDanish">&lt;color=1.0, 1.0, 0.0&gt;Bônus de civilização:&lt;/color&gt;\nComeça com um carro de boi, uma carroça de herdade que fornece um bônus de coleta e ganha um quando você envelhece. Unidades mercenárias são mais caras, mas são mais fortes.\n&lt;color=1.0, 1.0, 0.0&gt; Unidades da guarda real:&lt;/color&gt;\nMosqueteiro (Landsoldat) e Hussardo (Vida da Zelândia)\n&lt;color=1.0, 1.0, 0.0&gt; Unidades únicas:&lt;/color&gt;\nCarro de boi, infantaria de esqui, Friskytte e Rytter\n\nO Reino da Dinamarca se afirmou como uma potência significativa no norte da Europa por meio de seu uso estratégico da supremacia naval e forças militares disciplinadas. Sua artilharia e defesas fortificadas desempenharam um papel fundamental nas batalhas, particularmente durante conflitos como a Guerra dos Trinta Anos. Apesar dos desafios impostos por uma população relativamente pequena, a Dinamarca manteve sua força alavancando alianças e empregando mercenários qualificados para reforçar seus exércitos. Essa adaptabilidade permitiu que a Dinamarca permanecesse influente em toda a região por séculos</string>
+        <string _locid="500002">Copenhaga</string>
+        <string _locid="500003" symbol="cStringCivNamePolish">A Comunidade</string>
+        <string _locid="500004" symbol="cStringCivRolloverPolish">&lt;color=1.0, 1.0, 0.0&gt;Bônus de civilização:&lt;/color&gt;\nTorps coletam recursos próximos. Os mercenários Jaeger e Black Rider sempre podem ser recrutados na Taverna. As remessas de mercenários são mais baratas e chegam mais rapidamente. Melhorias avançadas disponíveis no Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt; Unidades da guarda real:&lt;/color&gt;\nPiqueiro (Dalkarl) e Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt; Unidades únicas:&lt;/color&gt;\nCarolano, Canhão de Couro e Hakkapelit\n\nO Império Sueco tornou-se um dos maiores da Europa através da inovação em táticas militares e logística. Suas cargas de artilharia e cavalaria dominaram os campos de batalha, particularmente durante a Guerra dos Trinta Anos. Apesar de uma população relativamente pequena, os suecos colocaram em campo alguns dos maiores exércitos da Europa, em parte por meio do recrutamento de mercenários.</string>
+        <string _locid="500005">Varsóvia</string>
+        <string _locid="500006">Noruega</string>
+        <string _locid="500007">Christiania</string>
+        <string _locid="500008">Cristiano IV</string>
+        <string _locid="500009">Christian IV é um líder ambicioso e engenhoso, conhecido por sua busca incansável pelo domínio militar e econômico. Ele investe pesadamente em fortificações e artilharia para garantir vantagem estratégica no campo de batalha. Christian IV prefere campanhas metódicas, aproveitando sua marinha e infantaria disciplinada para controlar territórios e superar os oponentes.</string>
+        <string _locid="500010">Jan III Sobieski</string>
+        <string _locid="500011">Jan III Sobieski</string>
+        <!-- PFirst -->
+        <string _locid="500012">Bolesław </string>
+        <string _locid="500013">Jerzy </string>
+        <string _locid="500014">Władysław </string>
+        <string _locid="500015">Mikołaj </string>
+        <string _locid="500016">Aleksy </string>
+        <string _locid="500017">Jerzy </string>
+        <!-- PLast -->
+        <string _locid="500018">Zawisza</string>
+        <string _locid="500019">Radziwiłł</string>
+        <string _locid="500020">Kościuszko</string>
+        <string _locid="500021">Poniatowski</string>
+        <string _locid="500022">Sienkiewicz</string>
+        <string _locid="500023">Zawisza</string>
+    <!-- DFirst -->
+        <string _locid="500024">Lars </string>
+        <string _locid="500025">Erik </string>
+        <string _locid="500026">Svend </string>
+        <string _locid="500027">Niels </string>
+        <string _locid="500028">Anders </string>
+        <string _locid="500029">Lars </string>
+    <!-- Dlast -->
+        <string _locid="500030">Falkenberg</string>
+        <string _locid="500031">Gundersen</string>
+        <string _locid="500032">Eriksen</string>
+        <string _locid="500033">M</string>
+        <string _locid="500034">Vinter</string>
+        <string _locid="500035">Falkenberg</string>
+    <!-- PTavern -->
+        <string _locid="500036">A Taverna do Velho Carvalho</string>
+        <string _locid="500037">A Taverna do Hussardo Bêbado</string>
+        <string _locid="500038">A Caneca Nebulosa</string>
+        <string _locid="500039">A Pousada Garra do Dragão</string>
+        <string _locid="500040">A Taverna do Nobre</string>
+        <string _locid="500041">A Taverna do Velho Carvalho</string>
+    <!-- Dtavern -->
+        <string _locid="500042">A Pousada do Dragão Azul</string>
+        <string _locid="500043">A Taverna do Galo Vermelho</string>
+        <string _locid="500044">O Salão do Hidromel</string>
+        <string _locid="500045">O Descanso da Sereia</string>
+        <string _locid="500046">O Machado Dourado</string>
+        <string _locid="500047">A Pousada do Dragão Azul</string>
+    <!-- PShip -->
+        <string _locid="500048">O Lanceiro Alado</string>
+        <string _locid="500049">Águia Branca</string>
+        <string _locid="500050">Dragão Báltico</string>
+        <string _locid="500051">Glória do Hussardo</string>
+        <string _locid="500052">A Vingança de Netuno</string>
+        <string _locid="500053">Leão-marinho</string>
+        <string _locid="500054">Relâmpago</string>
+        <string _locid="500055">Trovão</string>
+        <string _locid="500056">Sabre Negro</string>
+        <string _locid="500057">Rainha do Báltico</string>
+        <string _locid="500058">Lobo do Mar</string>
+        <string _locid="500059">Fúria do Vístula</string>
+        <string _locid="500060">Garra da Águia</string>
+        <string _locid="500061">A Ira de Varsóvia</string>
+        <string _locid="500062">Maré Carmesim</string>
+        <string _locid="500063">O Lanceiro Alado</string>
+        <!-- PFort -->
+        <string _locid="500064">Forte Sobieski</string>
+        <string _locid="500065">Fortaleza Wawel</string>
+        <string _locid="500066">Bastião Jagellonian</string>
+        <string _locid="500067">Relógio de Águia</string>
+        <!-- DFort -->
+        <string _locid="500068">Bastião de Valdemar</string>
+        <string _locid="500069">Forte Dannebrog</string>
+        <string _locid="500070">Fortaleza Viking.</string>
+        <string _locid="500071">Fortaleza de Kronborg</string>
+        <!-- Dship -->
+        <string _locid="500072">Águia de Sangue</string>
+        <string _locid="500073">Martelo do Mar</string>
+        <string _locid="500074">O Lobo de Ferro</string>
+        <string _locid="500075">Cavaleiro da Tempestade</string>
+        <string _locid="500076">Vela da Morte</string>
+        <string _locid="500077">O Dragão Negro</string>
+        <string _locid="500078">Aurora boreal</string>
+        <string _locid="500079">Rei do Mar</string>
+        <string _locid="500080">A Vingança de Valhalla</string>
+        <string _locid="500081">O Lobo de Skagerrak</string>
+        <string _locid="500082">Corvo do Norte</string>
+        <string _locid="500083">Ira do Mjolnir</string>
+        <string _locid="500084">Uivo de Odin</string>
+        <string _locid="500085">Tempestade Congelada</string>
+        <string _locid="500086">O Aperto do Kraken</string>
+        <string _locid="500087">Mordida de Fenrir</string>
+
+        <string _locid="500088">Soldado do País</string>
+        <string _locid="500089">Soldado do país</string>
+        <string _locid="500090">Soldador de terras Imperial</string>
+        <string _locid="500091">Imperial Landsoldat</string>
+        <string _locid="500092">O ataque e os pontos de vida do Mosqueteiro Dinamarquês aumentaram muito. O custo é reduzido.</string>
+        <string _locid="500093">Hussardos da vida da Zelândia</string>
+        <string _locid="500094">Hussardo da Vida da Zelândia</string>
+        <string _locid="500095">O ataque, os pontos de vida e a resistência ao alcance dos hussardos dinamarqueses aumentaram muito.</string>
+        <string _locid="500096">Engenharia de campo de batalha</string>
+        <string _locid="500097">Seus carros de boi agora também podem construir edifícios militares.</string>
+        <string _locid="500098">Portagens em Øresund</string>
+        <string _locid="500099">O controle sobre o estreito de Øresund permite que você aplique esse imposto. Suas Docas agora gotejam Moedas e ainda mais se você pesquisou a Alfândega de Öresund, mas agora tem um limite de construção.</string>
+        <string _locid="500100">Oldenburg</string>
+        <string _locid="500101">Concede um Granadeiro Real com todas as remessas futuras e alia você à Casa de Oldenburg.</string>
+        <!-- <string _locid="126970">Entrega alguns Granadeiros Reais e alia você à Casa de Oldenburg, permitindo que você treine Granadeiros Reais e outras infantarias de Oldenburg do Quartel.</string> -->
+        <string _locid="500102">1 carro de boi</string>
+        <string _locid="500103">Envia 1 Carro de Boi.</string>
+        <string _locid="500104">Carro de boi</string>
+        <string _locid="500105">Transforma-se em um moinho, propriedade ou curral de gado. Pode guarnecer em edifícios para proteção. Aumenta a produção de colonos.</string>
+        <string _locid="500106">Bote de canhão</string>
+        <string _locid="500107">Bom para explorar, pescar ou transportar.</string>
+        <string _locid="500108">Hussardos da Zelândia Imperial</string>
+        <string _locid="500109">Hussardo da Zelândia Imperial</string>
+        <string _locid="500110">Espingol</string>
+        <string _locid="500111">8 Crabats</string>
+        <string _locid="500112">Espingol Pesado</string>
+        <string _locid="500113"></string>
+        <string _locid="500114">Imperial Espingol</string>
+        <string _locid="500115">Canhoneira</string>
+        <string _locid="500116">3 Espingols</string>
+        <string _locid="500117">5 Espingols</string>
+        <string _locid="500118">4 Espingols</string>
+        <string _locid="500119">Tiro livre</string>
+        <string _locid="500120">Friskytter veterano</string>
+        <string _locid="500121">Veterano Friskytte</string>
+        <string _locid="500122">Guarda Freeshooter</string>
+        <string _locid="500123">Guarda Friskytte</string>
+        <string _locid="500124">Imperial Friskytter</string>
+        <string _locid="500125">Imperial Friskytte</string>
+        <string _locid="500126">Infantaria de esqui</string>
+        <string _locid="500127">Infantaria de esqui veterana</string>
+        <string _locid="500128">Guarda Infantaria de Esqui</string>
+        <string _locid="500129">Infantaria de Esqui Imperial</string>
+        <string _locid="500130">Rytter</string>
+        <string _locid="500131">Guarda Rytterne</string>
+        <string _locid="500132">Guarda Rytter</string>
+        <string _locid="500133">Cavaleiros Imperiais</string>
+        <string _locid="500134">Imperial Rytter</string>
+        <string _locid="500135">Contrato Bósnio</string>
+        <string _locid="500136">Entrega 6 bósnios. Permite a contratação de bósnios na Taverna.</string>
+        <string _locid="500137">15 Caribu</string>
+        <string _locid="500138"></string>
+        <string _locid="500139">4 Cavaleiros</string>
+        <string _locid="500140">5 Cavaleiros</string>
+        <string _locid="500141">8 Os Cavaleiros</string>
+        <string _locid="500142">2 Kanonjoller</string>
+        <string _locid="500143">3 Kanonjöller</string>
+        <string _locid="500144">Noruega</string>
+        <string _locid="500145" symbol="cStringCultureCEurope">Europa Central</string>
+        <string _locid="500146">Folwark</string>
+        <string _locid="500147">Edifício econômico que combina moinho e curral de gado, além de suportar alguma população.</string>
+        <string _locid="500148">Áreas Baleeiras do Norte</string>
+        <string _locid="500149">Envia duas baleias minke. Barcos de pesca se reúnem das baleias mais rápido.</string>
+        <string _locid="500150">Granadeiro Real</string>
+        <string _locid="500151">Guarda Salva-Vidas Real</string>
+        <string _locid="500152">Concede a um Granadeiro Real todas as remessas futuras e permite que ele seja recrutado nos Postos Comerciais de Oldemburgo.</string>
+        <string _locid="500153">Oportunista</string>
+        <string _locid="500154">Melhora seu explorador dinamarquês em combate, aumenta sua linha de visão e lhe dá um companheiro canino.</string>
+        <string _locid="500155">Minas de Knogsberg</string>
+        <string _locid="500156">Concede dois Vagões Garimpeiros de Prata.</string>
+        <string _locid="91774">Florestas escandinavas</string>
+        <string _locid="91775">A remessa da Scandinavian Forests chegou.</string>
+        <string _locid="500157">Grandes Florestas do Norte</string>
+        <string _locid="500158">As árvores duram significativamente mais e os colonos coletam madeira das árvores mais rapidamente.</string>
+        <string _locid="500159">Guerra das Canhoneiras</string>
+        <string _locid="500160">Mais Kanonjoller podem ser construídos e agora eles têm umbônus contra navios.</string>
+        <string _locid="500161">Danevirke</string>
+        <string _locid="500162">Envia dois carros de boi. Carros de boi agora podem construir postos avançados e o limite de construção para postos avançados aumentou.</string>
+        <string _locid="500163">4 Kanonjoller</string>
+        <string _locid="500164">4 Carroças Garimpeiras de Prata</string>
+        <string _locid="500165">6 Infantaria de esqui</string>
+        <string _locid="500166">Pontos de Vida do Escaramuçador da EQUIPE</string>
+        <string _locid="500167">EQUIPE Todos os pontos de vida do Escaramuçador aumentados.</string>
+        <string _locid="500168">Fortaleza de Akershus</string>
+        <string _locid="500169">Exploração madeireira norueguesa</string>
+        <string _locid="500170">Os colonos agora coletam moedas das árvores.</string>
+        <string _locid="500171">Abeto norueguês</string>
+        <string _locid="500172">Birkebeiners</string>
+        <string _locid="500173">Navios 6 Infantaria de Esqui e permite que eles e suas atualizações imperiais no quartel.</string>
+        <string _locid="500174">Minas de Prata Sandsvær</string>
+        <string _locid="500175">Os aldeões coletam moedas das minas mais rápido. Torps coletam moedas +100% mais rapidamente das minas. As minas duram mais.</string>
+        <string _locid="500176">Constituição de Eidsvoll</string>
+        <string _locid="500177"></string>
+        <string _locid="500178">Sjømenn</string>
+        <string _locid="500179">Concede 8 de Infantaria de Esqui. Seus colonos se tornam Sjømenn e podem ser chamados das docas e guarnecidos em navios de guerra para melhorar o ataque.</string>
+        <string _locid="500180">Dragões da Jutlândia</string>
+        <string _locid="500181">Permite que o centro da sua cidade treine carros de boi.</string>
+        <string _locid="500182">8 Infantaria de esqui</string>
+        <string _locid="500183">Marinha Real Dinamarquesa</string>
+        <string _locid="500184">Navios de guerra poderosos! Os navios de guerra dinamarqueses têm aumento de alcance e concedem a eles a capacidade de bombardeio de longo alcance.</string>
+        <string _locid="500185">Castelo de Kronborg</string>
+        <string _locid="500186">Duque de Holstein</string>
+        <string _locid="500187">Envia 10 Doppelsoldners veteranos.</string>
+        <string _locid="500188">Tratado de Koldinghus</string>
+        <string _locid="500189">Fornece à sua Igreja melhorias dinamarquesas exclusivas.</string>
+        <string _locid="500190">Liga da Neutralidade Armada</string>
+        <string _locid="500191">Rebanhos da Jutlândia</string>
+        <string _locid="500192">Entrega 10 vacas carregando mais 150 alimentos; Limite de trem de vaca +10.</string>
+        <string _locid="500193">Regimento Kongens</string>
+        <string _locid="500194">Navios 10 Mosqueteiros e Mosqueteiros ganham Pontos de Vida adicionais quando estão perto de edifícios aliados.</string>
+        <string _locid="500195">Snapphane</string>
+        <string _locid="500196">Friskytte agora ganha a habilidade furtividade.</string>
+        <string _locid="500197">Grandes Ambições</string>
+        <string _locid="500198">Ser agressivo demais permite que sua artilharia cause mais dano, mas será difícil readquirir mais se eles forem perdidos. O dano da artilharia e a área de efeito são aumentados, mas também o custo e o tempo de treinamento.</string>
+        <string _locid="500199">Parede de lança de Christian.</string>
+        <string _locid="500200">Envia um exército de piqueiros e aumenta sua armadura corpo a corpo e sua cavalaria verus bônus.</string>
+        <string _locid="500201">Contrate 7 Chakrams</string>
+        <string _locid="500202">Envia vários Mercenários Chakram que causam dano de área contra infantaria e edifícios.</string>
+        <string _locid="500203">14 Aliados Akan</string>
+        <string _locid="500204">Permite a contratação de Canhoneiro de Mão e Hackapell na Taverna</string>
+        <string _locid="500205">A atualização de guarda para Piqueiros pode ser pesquisada gratuitamente. Imperial Pikemen tem um preço reduzido.</string>
+        <string _locid="500206">Ataque e saúde de Piqueiros, Mosqueteiros, Infantaria de Esqui e Granadeiros aumentados.</string>
+        <string _locid="500207">Ataque de infantaria leve aumentado.</string>
+        <string _locid="500208">Ataque de Infantaria de Longo Alcance</string>
+        <string _locid="500209">Infantaria de Esqui e Friskytte ganham estatísticas aumentadas em torno de recursos e ganham bônus contra unidades semelhantes.</string>
+    
+
+</Language>
+</Stringtable>
+</stringmods>

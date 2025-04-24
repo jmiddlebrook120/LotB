@@ -325,8 +325,6 @@
       <effect type="TechStatus" status="obtainable">VeteranMusketeers</effect>
       <effect type="TechStatus" status="obtainable">GuardRytter</effect>
       <effect type="TechStatus" status="obtainable">VeteranHussars</effect>
-      <effect type="TechStatus" status="obtainable">HeavyEspingols</effect>
-      <effect type="TechStatus" status="obtainable">ImperialEspingols</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Capitol</target>
       </effect>
@@ -534,6 +532,7 @@
         <target type="Player">
         </target>
       </effect>
+      <effect type="TechStatus" status="active">HeavyEspingolShadow</effect>
     </effects>
   </tech>
   <tech name="DEImperializedanish" type="Normal">
@@ -550,6 +549,7 @@
         <target type="Player">
         </target>
       </effect>
+      <effect type="TechStatus" status="active">ImperialEspingolShadow</effect>
     </effects>
   </tech>
   <tech name="DEPostIndustrialdanish" type="Normal">
@@ -640,6 +640,7 @@
       <effect type="TechStatus" status="active">ChampionSeminoles</effect>
       <effect type="TechStatus" status="active">ChampionTupi</effect>
       <effect type="TechStatus" status="active">AAStandardNativeTechsPI</effect>
+      <effect type="TechStatus" status="active">HeavyEspingolShadow</effect>
       <effect type="TechStatus" status="active">HeavyHorseArtillery</effect>
       <effect type="TechStatus" status="active">ShipHowitzers</effect>
       <effect type="TechStatus" status="active">VeteranGrenadiers</effect>
@@ -682,6 +683,7 @@
       <effect type="TechStatus" status="active">ImperialDrabants</effect>
       <effect type="TechStatus" status="active">deImperialInfantryGuns</effect>
       <effect type="TechStatus" status="active">ImperialGrenadiers</effect>
+      <effect type="TechStatus" status="active">ImperialEspingolShadow</effect>
     </effects>
   </tech>
   <tech name="Age0Polish" type="Normal">
@@ -1343,7 +1345,7 @@
       </effect>
     </effects>
   </tech>
-  <tech name="HeavyEspingols" type="Normal">
+  <!-- <tech name="HeavyEspingols" type="Normal">
     <dbid>12021</dbid>
     <displaynameid>500111</displaynameid>
     <cost resourcetype="Food">250.0000</cost>
@@ -1392,7 +1394,7 @@
       <effect type="SetName" proto="Espingol" culture="none" newname="500114">
       </effect>
     </effects>
-  </tech>
+  </tech> -->
   <tech name="HCShipEspingols1" type="Normal">
     <dbid>12023</dbid>
     <displaynameid>500116</displaynameid>
@@ -1690,6 +1692,7 @@
   <tech name="ChurchPikewall" type="Normal">
     <dbid>12036</dbid>
     <displaynameid>500199</displaynameid>
+    <cost resourcetype="Food">1500.0000</cost>
     <cost resourcetype="Wood">1500.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -1701,6 +1704,9 @@
     </prereqs>
     <effects>
       <effect type="Data" amount="0.15" subtype="Armor" relativity="Absolute">
+        <target type="ProtoUnit">Pikeman</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">Pikeman</target>
       </effect>
       <effect type="Data" amount="0.50" subtype="DamageBonus" unittype="AbstractCavalry" allactions="1" relativity="Absolute">
@@ -2412,9 +2418,6 @@
     <flag>CountsTowardEconomicScore</flag>
     <effects>
       <effect type="SetAge">Age1</effect>
-      <effect type="Data" amount="1.00" subtype="BuildLimit" relativity="Absolute">
-        <target type="ProtoUnit">OxCart</target>
-      </effect>
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="OxCart" relativity="Absolute">
         <target type="ProtoUnit">TownCenter</target>
       </effect>
@@ -2516,7 +2519,7 @@
   <tech name="ChurchImmGermanDanish" type="Normal">
     <dbid>12069</dbid>
     <displaynameid>110156</displaynameid>
-    <cost resourcetype="Wood">300.0000</cost>
+    <cost resourcetype="Wood">2000.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\americans\immigrants\immigrants_german.png</icon>
@@ -2550,9 +2553,22 @@
       <effect type="TextOutputTechName">110130</effect>
     </effects>
   </tech>
-  <tech name="blank1" type="Normal">
+  <tech name="HCShipCrabat" type="Normal">
     <dbid>12070</dbid>
+    <displaynameid>500111</displaynameid>
+    <cost resourcetype="Gold">500.0000</cost>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>60.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\natives\europeans\crabat_icon.png</icon>
+    <flag>HomeCity</flag>
+    <flag>DEColonialMercShipment</flag>
     <effects>
+      <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="deSaloonCrabat" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TextOutput">110130</effect>
     </effects>
   </tech>
   <tech name="DEHCRoyalDecreeDanish" type="Normal">
@@ -2856,6 +2872,54 @@
         <target type="ProtoUnit">Friskytte</target>
       </effect>
       <effect type="TextOutputTechName">110130</effect>
+    </effects>
+  </tech>
+  <tech name="HeavyEspingolShadow" type="Normal">
+    <dbid>12083</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">DEMilitaryIndustrialAgeEnable</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="SetName" proto="Espingol" culture="none" newname="500112">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Espingol" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="deQuakerGun" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="ImperialEspingolShadow" type="Normal">
+    <dbid>12084</dbid>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Imperialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Espingol</target>
+      </effect>
+      <effect type="SetName" proto="Espingol" culture="none" newname="500114">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Espingol" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
     </effects>
   </tech>
 </techtreemods>    
